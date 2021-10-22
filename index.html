@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slover Finacial Multiservice,SA</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="logotipo">
+            <img src="imagens/teste.png" alt="" id="logo">
+            <p id="ph1">Solver Financial Multiservice,SA</p>
+            <p id="ph2">Servicos financeirios</p>
+        </div>
+        <img src="imagens/menu.png" alt="" id="btMenu" onclick="menu()">
+        <nav id="nv">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#creditos">Creditos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div id="home">
+                    <div>
+                        <h1>Acelere os seus projectos de vida connosco</h1>
+                        <p>Adira já ao Crédito Colaborador e dê o passo certo.</p>
+                    </div>
+                    <div id="formulario">
+                        <form>
+                            <input type="text" name="nome" placeholder="Nome Completo">
+                            <input type="email" name="email" id="" placeholder="Email">
+                            <input type="tel" name="celular" id="" placeholder="Telefone/Celular">
+                            <input type="text" name="" id="nome-empresa" placeholder="Nome da empresa">
+                            <select name="provincia" id="">
+                                <option value="MP">Maputo</option>
+                                <option value="BR">Beira</option>
+                                <option value="NP">Nampula</option>
+                            </select>
+                            <input type="submit" value="Submeter">
+                        </form>
+                    </div>
+            </div>
+            <div id="creditos">
+                <h2>Linhas de Crédito</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                <div class="linhasDeCredito" onmouseover="corAmarela(this, 'ad1')" onmouseout="corAzul(this, 'ad1')">
+                    <h3>Linha de Credito 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio nobis maxime molestias
+                    </p>
+                    <button id="ad1">Aderir</button>
+                </div>
+                <div class="linhasDeCredito" onmouseover="corAmarela(this , 'ad2')" onmouseout="corAzul(this ,'ad2')">
+                    <h3>Linha de Credito 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio nobis maxime molestias
+                    </p>
+                    <button id="ad2">Aderir</button>
+                </div>
+            </div>
+            <div id="contacto">
+                <div id="logotipo">
+                    <img src="imagens/teste.png" alt="" id="logo">
+                    <p id="ph1">Solver Financial Multiservice,SA</p>
+                    <p id="ph2">Servicos financeirios</p>
+                </div>
+
+                <div id="divProv">
+                    <p>Av. Lorem ipsum, 1233 - Maputo</p>
+                    <p>+285 87 111 1111 / 84 111 1111</p>
+                    <p>lorem@gmail.com</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por TEQ</p>
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

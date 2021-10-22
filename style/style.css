@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #313e59;
+    --cor2: #f2f0d5;
+    --cor3: #d9c877;
+    --cor4: #bfb68a;
+    --cor5: #f2f2f2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../imagens/photo4.jpeg") no-repeat;
+}
+
+header {
+    background-image: url("../imagens/imagem0.jpg");
+    background-size: cover;
+    width: 100%;
+    top: 0px;
+    padding: 5px;
+}
+
+
+#logotipo {
+    text-align: center;
+    font-size: 0.5em;
+}
+
+
+#logo {
+    width: 20%;
+}
+
+#ph1 {
+    color: var(--cor1);
+}
+
+#ph2 {
+    color: var(--cor3);
+}
+
+
+#btMenu {
+    position: absolute;
+    top: 3%;
+    right: 5px;
+    width: 8%;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    background-color: #404c68;
+    text-align: center;
+    width: 35%;
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+    border-bottom: 0.4px solid #090c22;
+}
+
+nav ul li a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    right: 1px;
+}
+
+
+main {
+    clear: both;
+}
+
+
+#home {
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+#home div {
+    margin-top: 30px;
+    transition: 600ms;
+}
+
+#home div p,
+#home div h1 {
+    padding: 5px;
+    margin: 5px;
+}
+
+#formulario {
+    margin: auto;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 20px;
+}
+
+input, select {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    border: 0.3px solid var(--cor3);
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: var(--cor2);
+}
+
+#creditos {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor5);
+}
+
+#creditos h2,
+#creditos p {
+    padding: 5px;
+}
+
+.linhasDeCredito {
+    border: 1px solid var(--cor1);
+    transition: 600ms;
+    margin: 10px auto;
+    width: 80%;
+    height: 300px;
+}
+
+.linhasDeCredito h3 {
+    border-bottom: 1px solid var(--cor1);
+    color: var(--cor1);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.linhasDeCredito p {
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+}
+
+.linhasDeCredito button {
+    margin-top: 35%;
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid var(--cor1);
+}
+
+
+#contacto {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#contacto p {
+    padding: 10px;
+}
+
+#logotipo p {
+    padding: 0px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: var(--cor1);
+    
+}
+
+footer p {
+    padding: 10px;
+}
