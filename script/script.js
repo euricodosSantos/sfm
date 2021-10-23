@@ -18,13 +18,14 @@ function menu() {
   }
 }
 
+
 function corAmarela(div, ad) {
   if (ad == "ad1") {
-    ad1.style.borderColor = "#d9c877";    
+    ad1.style.borderColor = "#bfb68a";    
   } else {
-    ad2.style.borderColor = "#d9c877";    
+    ad2.style.borderColor = "#bfb68a";    
   }
-  div.style.borderColor = "#d9c877";
+  div.style.borderColor = "#bfb68a";
 }
 
 function corAzul(div, ad) {

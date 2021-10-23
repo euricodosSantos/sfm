@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background-image: url("../imagens/imagem0.jpg");
+    background-image: linear-gradient(to top, #313e59f5 5%, #bfb68af3 140%);
     background-size: cover;
     width: 100%;
     top: 0px;
@@ -31,11 +31,11 @@ header {
 
 #logotipo {
     text-align: center;
-    font-size: 0.4em;
+    font-size: 0.6em;
 }
 
 #logo {
-    width: 15%;
+    width: 18%;
 }
 
 #ph1 {
@@ -48,7 +48,7 @@ header {
 
 #btMenu {
     position: absolute;
-    top: 2%;
+    top: 3%;
     right: 5px;
     width: 8%;
 }
@@ -177,7 +177,19 @@ input[type="submit"] {
 }
 
 #contacto p {
-    padding: 10px;
+    padding: 3px;
+}
+
+.provDiv{
+    padding: 5px;
+    margin: 3px;
+    border: 1px dotted;
+    border-top: 0px;
+    border-bottom: 0px;
+    font-size: small;
+    width: 47%;
+    display: inline-block;
+    margin-top: 15px;
 }
 
 #logotipo p {
