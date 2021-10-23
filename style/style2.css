@@ -1,0 +1,306 @@
+@charset "UTF-8";
+:root{
+    --cor1:#313E59;
+    --cor2:#F2F0D5;
+    --cor3:#D9C877;
+    --cor4:#BFB68A;
+    --cor5:#F2F2F2;
+}
+@keyframes changeimage{
+    15%{background:url(../imagens/imagem2.jpg);
+        background-size: cover;
+    
+    
+    }
+    25%{
+        background:url(../imagens/imagem5.jpg);
+        background-size: cover;
+
+    }
+    50%{background:url(../imagens/imagem6.jpg);
+        background-size: cover;
+    
+    }
+    
+    100%{
+        background:url(../imagens/imagem7.jpg);
+        background-size: cover;
+    }
+
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+    width: 100%;
+        
+}
+header {
+
+max-width: 100%;
+min-width: 30%;
+margin: auto;
+display: flex;
+
+}
+div#fotologo{
+    margin-top:-30px ;
+    width: 90%;
+    display: block;
+    margin-left: 10px;
+  
+}
+#fotologo p#p1{
+    color: var(--cor1);
+    font-weight: 900;
+
+}
+p#p2{
+    color: var(--cor3);
+    text-indent:30px;
+    
+
+}
+ 
+img#foto{ 
+      margin-top: 40px;
+    margin-left: 60px;
+   width:70px;
+}
+
+
+
+nav#menu ul{
+    display: inline-flex;
+    list-style: none;
+    text-transform:uppercase ;
+    position: relative;
+    top:10px;
+    left: 6px;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+   }
+   nav#menu a {
+    
+    color: white;
+    text-decoration: none;
+    transition-property: background-color , padding, border-radius;
+    transition-duration: 100ms, 1s,100ms;
+    transition-delay: 100ms;
+    
+
+}
+#menu a:hover{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--cor3);
+
+}
+
+
+
+#home{
+    
+    box-sizing: border-box;
+    color: white;
+    height:100%;
+    background: url("../imagens/imagem7.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+   margin-bottom: 90px;
+    animation-name: changeimage;
+   animation-duration: 10s;
+   animation-direction: alternate;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-play-state:running ;
+   
+
+  
+    
+}
+main{
+  
+    margin-top: -20px;
+}
+
+#fundo{
+    margin-top:-0px;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.425);
+
+   
+
+
+}
+#texto{
+    text-align: center;
+    margin: 20px;
+    max-width:50%;
+    position: relative;
+    
+
+
+}
+#texto h1{
+    
+    padding-top: 100px;
+
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+  
+}
+
+#formulario{
+  margin-top:-220px;
+   display: block;
+   height:46%;  
+   max-width:20%;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 20px;
+    float: right;
+    margin-right: 10px;
+
+}
+
+input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 4px;
+}
+input#sub{
+    background-color: rgba(0, 0, 0, 0.089);
+    color: var(--cor3);
+    border:solid ;
+    border-radius: 20px;
+}
+#sub:hover{
+    background-color: var(--cor1);
+    border: solid var(--cor1);
+    font-weight: bold;
+    color: var(--cor2);
+}
+#creditos{
+    margin-bottom: 70px;
+    max-width: 100%;
+    margin: auto;
+ 
+}
+div#creditos h1{
+ 
+  margin-top: 20px;
+  text-align: center;
+
+  
+ 
+}
+#creditos p.cred {
+    
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 5px;
+   word-spacing: 5px;
+    
+  
+    
+}
+div.caixa{
+    
+    padding: 10PX;
+    display:inline-table;
+   width: 230px;
+    height:auto;
+    border: solid rgba(0, 0, 0, 0.438);
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+.caixa h2{
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid rgba(0, 0, 0, 0.329);
+    margin: -10px;
+    margin-bottom: 10px;
+
+}
+.caixa p{
+    display: block;
+    width:100%;
+    
+}
+input.aderir{
+    box-sizing: border-box;
+      margin-top: 20px;
+      margin-bottom: 40px;
+     padding:10px ;
+    border-radius: 20px;
+    position: relative;
+    display:inline-block;
+   transition-property: backgrand-color, padding;
+}
+input.aderir:hover{
+    background-color: var(--cor1);
+    color: var(--cor5);
+    font-weight: bold;
+    padding:  15px ;
+    transition-duration: 100ms, 1s,100ms;
+    transition-delay: 100ms;
+    transition:1s;
+    
+    
+}
+
+
+
+#contacto{
+     padding-top: 50px;
+     width: 100%;
+     margin: auto;
+     background-color: var(--cor5);
+}
+#contactoinf {
+    margin: auto;
+  
+    max-width: 10%;
+    padding: 20px;
+    margin: auto;
+}
+
+
+#contacto ul{
+    text-align: center;
+  columns: 3;
+  list-style: none;
+ 
+  padding-bottom: 50px;
+} 
+#celular::before {
+    content: "\f095";
+}
+#avenida::before{
+    
+}
+
+footer{
+    background-color: var(--cor1);
+    max-width: 100%;
+    padding: 10px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
