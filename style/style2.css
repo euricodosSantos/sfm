@@ -30,13 +30,20 @@
 
 @media screen and (min-width: 400px) {
     body {
-        background-color: white;
         width: 100%;
+        animation-name: changeimage;
+        animation-duration: 10s;
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-play-state: running;
+        height: 100%;
+        background-size: cover;
+        overflow: hidden;
     }
 
     header {
-        max-width: 100%;
-        min-width: 30%;
         margin: auto;
         display: flex;
     }
@@ -66,32 +73,34 @@
         width: 70px;
     }
 
+    #btMenu{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
 
 
-    nav#menu ul {
+    nav ul {
         display: inline-flex;
-        list-style: none;
-        text-transform: uppercase;
         position: relative;
         top: 10px;
         left: 6px;
     }
 
-    nav#menu li {
+    nav li {
         display: inline-block;
         padding: 5px;
         margin: 2px;
     }
 
-    nav#menu a {
-
+    nav a {
         color: white;
         text-decoration: none;
         transition-property: background-color, padding, border-radius;
         transition-duration: 100ms, 1s, 100ms;
         transition-delay: 100ms;
-
-
     }
 
     #menu a:hover {
@@ -99,7 +108,6 @@
         padding: 10px;
         border-radius: 5px;
         color: var(--cor3);
-
     }
 
 
@@ -108,18 +116,9 @@
 
         box-sizing: border-box;
         color: white;
-        height: 100%;
-        background: url("../imagens/imagem7.jpg") no-repeat;
-        background-size: cover;
-        overflow: hidden;
+
         margin-bottom: 90px;
-        animation-name: changeimage;
-        animation-duration: 10s;
-        animation-direction: alternate;
-        animation-fill-mode: forwards;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        animation-play-state: running;
+
     }
 
     main {
@@ -242,28 +241,11 @@
         transition: 1s;
     }
 
-
-
     #contacto {
         padding-top: 50px;
         width: 100%;
         margin: auto;
         background-color: var(--cor5);
-    }
-
-    #contactoinf {
-        margin: auto;
-
-        max-width: 10%;
-        padding: 20px;
-        margin: auto;
-    }
-
-    #contacto ul {
-        text-align: center;
-        columns: 3;
-        list-style: none;
-        padding-bottom: 50px;
     }
 
     #celular::before {
