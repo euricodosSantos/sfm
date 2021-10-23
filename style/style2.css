@@ -30,7 +30,6 @@
 
 @media screen and (min-width: 400px) {
     body {
-        width: 100%;
         animation-name: changeimage;
         animation-duration: 10s;
         animation-direction: alternate;
@@ -38,39 +37,22 @@
         animation-iteration-count: infinite;
         animation-timing-function: linear;
         animation-play-state: running;
-        height: 100%;
         background-size: cover;
-        overflow: hidden;
     }
 
     header {
+        background: none;
+        background-color: rgba(0, 0, 0, 0.582);
+        height: 90px;
+        padding: 10px;
         margin: auto;
         display: flex;
     }
 
     div#logotipo {
-        margin-top: -30px;
-        width: 90%;
-        display: block;
-        margin-left: 10px;
-
-    }
-
-    #logotipo p#p1 {
-        color: var(--cor1);
-        font-weight: 900;
-
-    }
-
-    p#p2 {
-        color: var(--cor3);
-        text-indent: 30px;
-    }
-
-    img#foto {
-        margin-top: 40px;
-        margin-left: 60px;
-        width: 70px;
+        width: 80%;
+        text-align: center;
+        transform: translateX(-40%);
     }
 
     #btMenu{
@@ -78,9 +60,9 @@
     }
 
     nav{
+        background: none;
         display: block;
     }
-
 
     nav ul {
         display: inline-flex;
@@ -88,11 +70,12 @@
         top: 10px;
         left: 6px;
     }
-
-    nav li {
+    
+    nav ul li {
         display: inline-block;
         padding: 5px;
         margin: 2px;
+        border: none;
     }
 
     nav a {
@@ -123,6 +106,7 @@
 
     main {
         margin-top: -20px;
+        width: 100%;
     }
 
     #home {
