@@ -32,12 +32,12 @@ header {
 
 #logotipo {
     text-align: center;
-    font-size: 0.5em;
+    font-size: 0.4em;
 }
 
 
 #logo {
-    width: 20%;
+    width: 15%;
 }
 
 #ph1 {
@@ -51,7 +51,7 @@ header {
 
 #btMenu {
     position: absolute;
-    top: 3%;
+    top: 2%;
     right: 5px;
     width: 8%;
 }
