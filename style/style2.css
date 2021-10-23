@@ -1,34 +1,26 @@
-:root {
-    --cor1: #313e59;
-    --cor2: #f2f0d5;
-    --cor3: #d9c877;
-    --cor4: #bfb68a;
-    --cor5: #f2f2f2;
-}
-
-@keyframes changeimage {
-    15% {
-        background: url(../imagens/imagem2.jpg);
-        background-size: cover;
-    }
-
-    25% {
-        background: url(../imagens/imagem5.jpg);
-        background-size: cover;
-    }
-
-    50% {
-        background: url(../imagens/imagem6.jpg);
-        background-size: cover;
-    }
-
-    100% {
-        background: url(../imagens/imagem7.jpg);
-        background-size: cover;
-    }
-}
-
 @media screen and (min-width: 400px) {
+    @keyframes changeimage {
+        15% {
+            background: url(../imagens/imagem2.jpg);
+            background-size: cover;
+        }
+
+        25% {
+            background: url(../imagens/imagem5.jpg);
+            background-size: cover;
+        }
+
+        50% {
+            background: url(../imagens/imagem6.jpg);
+            background-size: cover;
+        }
+
+        100% {
+            background: url(../imagens/imagem7.jpg);
+            background-size: cover;
+        }
+    }
+
     body {
         animation-name: changeimage;
         animation-duration: 10s;
@@ -42,10 +34,9 @@
 
     header {
         background: none;
-        background-color: rgba(0, 0, 0, 0.582);
-        height: 90px;
+        background-color: rgba(0, 0, 0, 0.726);
+        height: 70px;
         padding: 10px;
-        margin: auto;
         display: flex;
     }
 
@@ -55,22 +46,22 @@
         transform: translateX(-40%);
     }
 
-    #btMenu{
+    #btMenu {
         display: none;
     }
 
-    nav{
+    nav {
         background: none;
         display: block;
     }
 
-    nav ul {
+/*    nav ul {
         display: inline-flex;
         position: relative;
         top: 10px;
         left: 6px;
-    }
-    
+    }*/
+
     nav ul li {
         display: inline-block;
         padding: 5px;
@@ -93,24 +84,14 @@
         color: var(--cor3);
     }
 
-
+    main {
+        margin: auto;
+        min-width: 350px;
+    }
 
     #home {
-
         box-sizing: border-box;
         color: white;
-
-        margin-bottom: 90px;
-
-    }
-
-    main {
-        margin-top: -20px;
-        width: 100%;
-    }
-
-    #home {
-        margin-top: -0px;
         width: 100%;
         height: 400px;
         background-color: rgba(0, 0, 0, 0.425);
@@ -181,7 +162,7 @@
         word-spacing: 5px;
     }
 
-    div.caixa {
+   div.caixa {
         padding: 10PX;
         display: inline-table;
         width: 230px;
