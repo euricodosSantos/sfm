@@ -29,12 +29,10 @@ header {
     padding: 5px;
 }
 
-
 #logotipo {
     text-align: center;
     font-size: 0.4em;
 }
-
 
 #logo {
     width: 15%;
@@ -47,7 +45,6 @@ header {
 #ph2 {
     color: var(--cor3);
 }
-
 
 #btMenu {
     position: absolute;
@@ -161,9 +158,10 @@ input[type="submit"] {
     margin: 10px 10px 0px 10px;
 }
 
-.caixa button {
+.aderir {
+    width: 65%;
     position: relative;
-    top: 30%;
+    top: 25%;
     color: var(--cor1);
     padding: 10px;
     border-radius: 20px;
@@ -190,7 +188,6 @@ footer {
     color: white;
     text-align: center;
     background-color: var(--cor1);
-    
 }
 
 footer p {

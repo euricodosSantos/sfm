@@ -125,6 +125,12 @@
         border: solid rgba(0, 0, 0, 0.438);
     }
 
+    .caixa:hover{
+        width: 66%;
+        height: 56vh;
+        transition: 1s;
+    }
+
     .caixa h2 {
         padding: 20px;
         text-align: center;
@@ -139,13 +145,6 @@
     }
 
     input.aderir {
-        box-sizing: border-box;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        padding: 10px;
-        border-radius: 20px;
-        position: relative;
-        display: inline-block;
         transition-property: backgrand-color, padding;
     }
 
@@ -153,17 +152,10 @@
         background-color: var(--cor1);
         color: var(--cor5);
         font-weight: bold;
-        padding: 15px;
+        padding: 11px;
         transition-duration: 100ms, 1s, 100ms;
         transition-delay: 100ms;
         transition: 1s;
-    }
-
-    #contacto {
-        padding-top: 50px;
-        width: 100%;
-        margin: auto;
-        background-color: var(--cor5);
     }
 
     #celular::before {
