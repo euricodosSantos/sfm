@@ -140,7 +140,7 @@ input[type="submit"] {
     padding: 5px;
 }
 
-.linhasDeCredito {
+.caixa {
     border: 1px solid var(--cor1);
     transition: 600ms;
     margin: 10px auto;
@@ -148,19 +148,19 @@ input[type="submit"] {
     height: 300px;
 }
 
-.linhasDeCredito h3 {
+.caixa h3 {
     border-bottom: 1px solid var(--cor1);
     color: var(--cor1);
     padding: 10px;
     margin-bottom: 30px;
 }
 
-.linhasDeCredito p {
+.caixa p {
     padding: 10px;
     margin: 10px 10px 0px 10px;
 }
 
-.linhasDeCredito button {
+.caixa button {
     margin-top: 35%;
     color: var(--cor1);
     padding: 10px;

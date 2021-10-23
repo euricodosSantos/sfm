@@ -1,4 +1,4 @@
-let divLinhasCredito = document.getElementsByClassName("linhasDeCredito");
+let divLinhasCredito = document.getElementsByClassName("caixa");
 let botao = document.getElementById("btMenu");
 let on = 0;
 
@@ -6,7 +6,7 @@ let ad1 = document.getElementById("ad1");
 let ad2 = document.getElementById("ad2");
 
 function menu() {
-  let nav = document.getElementById("nv");
+  let nav = document.getElementById("menu");
   if (on === 0) {
     nav.style.display = "inline-block";
     on = 1;

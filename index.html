@@ -18,7 +18,7 @@
             <p id="ph2">Servicos financeirios</p>
         </div>
         <img src="imagens/menu.png" alt="" id="btMenu" onclick="menu()">
-        <nav id="nv">
+        <nav id="menu">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#creditos">Creditos</a></li>
@@ -30,35 +30,35 @@
     <main>
         <article>
             <div id="home">
-                    <div>
-                        <h1>Acelere os seus projectos de vida connosco</h1>
-                        <p>Adira já ao Crédito Colaborador e dê o passo certo.</p>
-                    </div>
-                    <div id="formulario">
-                        <form>
-                            <input type="text" name="nome" placeholder="Nome Completo">
-                            <input type="email" name="email" id="" placeholder="Email">
-                            <input type="tel" name="celular" id="" placeholder="Telefone/Celular">
-                            <input type="text" name="" id="nome-empresa" placeholder="Nome da empresa">
-                            <select name="provincia" id="">
-                                <option value="MP">Maputo</option>
-                                <option value="BR">Beira</option>
-                                <option value="NP">Nampula</option>
-                            </select>
-                            <input type="submit" value="Submeter">
-                        </form>
-                    </div>
+                <div>
+                    <h1>Acelere os seus projectos de vida connosco</h1>
+                    <p>Adira já ao Crédito Colaborador e dê o passo certo.</p>
+                </div>
+                <div id="formulario">
+                    <form>
+                        <input type="text" name="nome" placeholder="Nome Completo">
+                        <input type="email" name="email" id="" placeholder="Email">
+                        <input type="tel" name="celular" id="" placeholder="Telefone/Celular">
+                        <input type="text" name="" id="nome-empresa" placeholder="Nome da empresa">
+                        <select name="provincia" id="">
+                            <option value="MP">Maputo</option>
+                            <option value="BR">Beira</option>
+                            <option value="NP">Nampula</option>
+                        </select>
+                        <input type="submit" value="Submeter">
+                    </form>
+                </div>
             </div>
             <div id="creditos">
                 <h2>Linhas de Crédito</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                <div class="linhasDeCredito" onmouseover="corAmarela(this, 'ad1')" onmouseout="corAzul(this, 'ad1')">
+                <div class="caixa" onmouseover="corAmarela(this, 'ad1')" onmouseout="corAzul(this, 'ad1')">
                     <h3>Linha de Credito 1</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio nobis maxime molestias
                     </p>
                     <button id="ad1">Aderir</button>
                 </div>
-                <div class="linhasDeCredito" onmouseover="corAmarela(this , 'ad2')" onmouseout="corAzul(this ,'ad2')">
+                <div class="caixa" onmouseover="corAmarela(this , 'ad2')" onmouseout="corAzul(this ,'ad2')">
                     <h3>Linha de Credito 2</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio nobis maxime molestias
                     </p>
@@ -81,6 +81,7 @@
         </article>
     </main>
     <footer>
+        <p>&copy; Copyright 2021,Slover Finacial Multiservice,SA.Todos direitos reservados</p>
         <p>Desenvolvido por TEQ</p>
     </footer>
     <script src="./script/script.js"></script>
