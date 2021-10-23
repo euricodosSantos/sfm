@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to top, #313e59f5 5%, #bfb68af3 140%);
+    background-image: url("../imagens/imagem0.jpg");
     background-size: cover;
     width: 100%;
     top: 0px;
