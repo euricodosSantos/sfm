@@ -33,16 +33,16 @@
     }
 
     header {
+        position: relative;
         background: none;
         background-color: rgba(0, 0, 0, 0.548);
-        height: 60px;
         padding: 10px;
         display: flex;
     }
 
     header div#logotipo {
         width: 80%;
-        transform: translateX(-38%);
+        transform: translateX(-30%);
     }
 
     #btMenu {
@@ -51,13 +51,11 @@
 
     nav {
         background: none;
-        display: block;
-        width: 60%;
+        width: 50%
     }
 
     nav ul {
-        position: relative;
-        top: 10px;
+        transform: translate(0px, 10%);
     }
 
     nav ul li {
@@ -67,6 +65,7 @@
     }
 
     nav a {
+        font-size: small;
         color: white;
         text-decoration: none;
         transition-property: background-color, padding, border-radius;
@@ -93,23 +92,8 @@
         background-color: rgba(0, 0, 0, 0.425);
     }
 
-    #texto {
-        text-align: center;
-        margin: 20px;
-        width: 95%;
-        position: relative;
-    }
-
-    #texto h1 {
-        padding-top: 90px;
-        font-size: 2em;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-
     #formulario {
         width: 75%;
-        background-color: rgba(0, 0, 0, 0.425);
     }
 
     #sub:hover {
@@ -118,30 +102,17 @@
         color: var(--cor3);
     }
 
-    div.caixa {
+    .caixa {
         display: inline-table;
-        width: 65%;
+        width: 60%;
         height: 55vh;
         border: solid rgba(0, 0, 0, 0.438);
     }
 
-    .caixa:hover{
+    .caixa:hover {
         width: 66%;
         height: 56vh;
         transition: 1s;
-    }
-
-    .caixa h2 {
-        padding: 20px;
-        text-align: center;
-        border-bottom: solid rgba(0, 0, 0, 0.329);
-        margin: -10px;
-        margin-bottom: 10px;
-    }
-
-    .caixa p {
-        display: block;
-        width: 100%;
     }
 
     input.aderir {
@@ -167,4 +138,108 @@
 }
 */
 
+}
+
+@media screen and (min-width: 500px) {
+    nav {
+        width: 60%;
+    }
+
+    nav ul {
+        transform: translate(0%, 70%);
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    #texto {
+        margin: auto;
+        width: 70%;
+    }
+    .caixa {
+        width: 55%;
+    }
+    .caixa:hover {
+        width: 56%;
+    }
+    .caixa p {
+        padding: 20px;
+    }
+
+    .aderir {
+        top: 40%;
+    }
+
+    .provDiv {
+        width: 45%;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) {
+
+    nav {
+        width: auto;
+    }
+
+    nav ul {
+        transform: translate(0%, 70%);
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    #formulario {
+        width: 60%;
+    }
+
+    .caixa {
+        width: 50%;
+    }
+
+    .caixa:hover {
+        width: 51%;
+    }
+
+    .caixa p {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .aderir {
+        top: 40%;
+    }
+
+    .provDiv {
+        width: 45%;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    #home{
+        padding: 60px 30px;
+    }
+
+    #texto{
+        width: 50%;
+        float: left;
+    }
+
+    #formulario{
+        width: 40%;
+        float: right;
+
+    }
+
+    .caixa {
+        margin: 30px;
+        width: 25%;
+    }
+    .caixa:hover {
+        width: 25%;
+    }
 }
