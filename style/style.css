@@ -88,7 +88,6 @@ main {
 #home {
     height: 100vh;
     color: white;
-    text-align: center;
     padding: 10px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.548);
@@ -112,7 +111,6 @@ main {
     min-width: 200px;
     background-color: rgba(0, 0, 0, 0.411);
     padding: 20px;
-    border-radius: 5px;
 }
 
 input,
@@ -143,7 +141,6 @@ input[type="submit"] {
 }
 
 .caixa {
-    border-radius: 4px;
     position: relative;
     border: 2px solid var(--cor1);
     margin: 10px auto;
@@ -188,17 +185,6 @@ input[type="submit"] {
 
 #contacto h3{
     padding: 10px;
-}
-.provDiv {
-    padding: 5px;
-    margin: 3px;
-    border: 1px dotted;
-    border-top: 0px;
-    border-bottom: 0px;
-    font-size: small;
-    width: 47%;
-    display: inline-block;
-    margin-top: 15px;
 }
 
 

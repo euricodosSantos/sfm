@@ -42,7 +42,7 @@
 
     header div#logotipo {
         width: 300px;
-        transform: translateX(-30%);
+        transform: translateX(-15%);
     }
 
     #btMenu {
@@ -56,7 +56,7 @@
     }
 
     nav ul {
-        transform: translate(-1%, 3%);
+        transform: translate(0px, 3%);
     }
 
     nav ul li {
@@ -85,6 +85,10 @@
         color: black;
     }
 
+    #formulario{
+        max-width: 370px;
+    }
+
     .caixa {
         display: inline-table;
         margin: 20px;
@@ -105,6 +109,9 @@
         transition-delay: 100ms;
         transition: 500ms;
     }
+    #contacto{
+        padding: 20px;
+    }
 
     #contacto #logotipo {
         width: 50%;
@@ -122,13 +129,17 @@
     }
 
     nav ul {
-        transform: translate(-15%, 70%);
+        transform: translate(-20%, 50%);
     }
 }
 
 @media screen and (min-width: 600px) {
     nav {
         width: auto;
+    }
+
+        nav ul {
+        transform: translate(-30%, 50%);
     }
 
     .aderir {
@@ -146,15 +157,14 @@
         font-size: larger;
         max-width: 450px;
         position: absolute;
-        left: 6%;
+        left: 10%;
         top: 20%;
     }
 
     #formulario {
         position: absolute;
-        right: 6%;
+        right: 10%;
         top: 20%;
-
     }
 
     #creditos {
