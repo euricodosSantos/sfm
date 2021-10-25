@@ -80,34 +80,16 @@
         color: var(--cor3);
     }
 
-    main {
-        margin: auto;
-        min-width: 350px;
-    }
-
-    #home {
-        box-sizing: border-box;
-        color: white;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.425);
-    }
-
-
     #sub:hover {
-        background-color: var(--cor1);
-        border: 1px solid var(--cor1);
-        color: var(--cor3);
+        background-color: var(--cor3);
+        color:black;
     }
 
     .caixa {
         display: inline-table;
-        width: 60%;
+        margin: 20px;
+        max-width: 300px;
         height: 55vh;
-    }
-
-    .caixa:hover {
-        width: 66%;
-        height: 56vh;
     }
 
     input.aderir {
@@ -141,17 +123,6 @@
     nav ul li {
         display: inline-block;
     }
-
-    #texto {
-        margin: auto;
-        width: 70%;
-    }
-
-
-    .provDiv {
-        width: 45%;
-    }
-
 }
 
 
@@ -173,10 +144,6 @@
         top: 40%;
     }
 
-    .provDiv {
-        width: 45%;
-    }
-
 }
 
 @media screen and (min-width: 800px) {
@@ -188,9 +155,4 @@
         width: 50%;
         float: left;
     }
-
-    .caixa {
-        margin: 30px;
-    }
-
 }
