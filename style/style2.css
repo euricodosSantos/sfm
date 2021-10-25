@@ -35,7 +35,7 @@
     header {
         position: relative;
         background: none;
-        background-color: rgba(0, 0, 0, 0.658);
+        background-color: rgba(0, 0, 0, 0.651);
         padding: 10px;
         display: flex;
     }
@@ -67,7 +67,7 @@
 
     nav ul li a {
         color: white;
-        font-size: small;
+        font-size: medium;
         text-decoration: none;
         transition-property: background-color, padding, border-radius;
         transition-duration: 100ms, 1s, 100ms;
@@ -75,7 +75,6 @@
     }
 
     #menu a:hover {
-        background-color: var(--cor1);
         padding: 10px;
         border-radius: 2px;
         color: var(--cor3);
@@ -146,14 +145,19 @@
     #texto {
         max-width: 450px;
         position: absolute;
-        left: 30px;
+        left: 6%;
         top: 20%;
     }
 
     #formulario {
         position: absolute;
-        right: 30px;
+        right: 6%;
         top: 20%;
 
+    }
+
+    #creditos{
+        padding-top: 80px;
+        height: 100vh;
     }
 }
