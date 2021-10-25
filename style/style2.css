@@ -92,9 +92,6 @@
         background-color: rgba(0, 0, 0, 0.425);
     }
 
-    #formulario {
-        width: 75%;
-    }
 
     #sub:hover {
         background-color: var(--cor1);
@@ -106,13 +103,11 @@
         display: inline-table;
         width: 60%;
         height: 55vh;
-        border: solid rgba(0, 0, 0, 0.438);
     }
 
     .caixa:hover {
         width: 66%;
         height: 56vh;
-        transition: 1s;
     }
 
     input.aderir {
@@ -124,20 +119,14 @@
         color: var(--cor5);
         font-weight: bold;
         padding: 11px;
-        transition-duration: 100ms, 1s, 100ms;
+        transition-duration: 100ms, 500ms, 100ms;
         transition-delay: 100ms;
-        transition: 1s;
+        transition: 500ms;
     }
 
     #celular::before {
         content: "\f095";
     }
-
-    /*
-#avenida::before {
-}
-*/
-
 }
 
 @media screen and (min-width: 500px) {
@@ -157,19 +146,7 @@
         margin: auto;
         width: 70%;
     }
-    .caixa {
-        width: 55%;
-    }
-    .caixa:hover {
-        width: 56%;
-    }
-    .caixa p {
-        padding: 20px;
-    }
 
-    .aderir {
-        top: 40%;
-    }
 
     .provDiv {
         width: 45%;
@@ -192,23 +169,6 @@
         display: inline-block;
     }
 
-    #formulario {
-        width: 60%;
-    }
-
-    .caixa {
-        width: 50%;
-    }
-
-    .caixa:hover {
-        width: 51%;
-    }
-
-    .caixa p {
-        width: 90%;
-        padding: 20px;
-    }
-
     .aderir {
         top: 40%;
     }
@@ -229,17 +189,8 @@
         float: left;
     }
 
-    #formulario{
-        width: 40%;
-        float: right;
-
-    }
-
     .caixa {
         margin: 30px;
-        width: 25%;
     }
-    .caixa:hover {
-        width: 25%;
-    }
+
 }

@@ -18,21 +18,37 @@ function menu() {
   }
 }
 
-
-function corAmarela(div, ad) {
-  if (ad == "ad1") {
-    ad1.style.borderColor = "#bfb68a";    
-  } else {
-    ad2.style.borderColor = "#bfb68a";    
+function mudarProv(boatao, prov) {
+  let bt = document.getElementsByClassName('bt')
+  let provDiv = document.getElementById("prov")
+  for (let b of bt) {
+      b.style.backgroundColor = 'white'
+      b.style.color = 'black'
   }
-  div.style.borderColor = "#bfb68a";
-}
-
-function corAzul(div, ad) {
-  if (ad == "ad1") {
-    ad1.style.borderColor = "#313e59";    
-  } else {
-    ad2.style.borderColor = "#313e59";    
+  boatao.style.backgroundColor = '#313e59'
+  boatao.style.color = 'white'
+  provDiv.innerHTML = ""
+  if (prov == "mp") {
+      provDiv.innerHTML += "<h4>Maputo</h4>"
+      provDiv.innerHTML += "<p>Av. 25 de Setembro,1791 - Maputo</p>"
+      provDiv.innerHTML += `<p>\u{1F4DE}+258 86 391 3250</p>`
+  } else if (prov == "zb") {
+      provDiv.innerHTML += "<h4>Zambezia</h4>"
+      provDiv.innerHTML += "<p>Av. 25 de Zambezia,1791 - Zambezia</p>"
+      provDiv.innerHTML += "<p>\u{1F4DE}+258 86 319 0229</p>"
+  } else if (prov == "np") {
+      provDiv.innerHTML = "<h4>Nampula</h4>"
+      provDiv.innerHTML += "<p>Av. 25 de Nampula,1791 - Nampula</p>"
+      provDiv.innerHTML += "<p> \u{1F4DE}+258 86 231 6277</p>"
   }
-  div.style.borderColor = "#313e59";
+  else if (prov == "in") {
+      provDiv.innerHTML = "<h4>Inhambane</h4>"
+      provDiv.innerHTML += "<p>Av. 25 de Inhambane,1791 - Inhambane</p>"
+      provDiv.innerHTML += "<p> \u{1F4DE}+258 86 813 0474</p>"
+  }
+  else if (prov == "mc") {
+      provDiv.innerHTML = "<h4>Manica</h4>"
+      provDiv.innerHTML += "<p>Av. 25 de Manica,1791 - Manica</p>"
+      provDiv.innerHTML += "<p>\u{1F4DE}+258 86 813 0474</p>"
+  }
 }

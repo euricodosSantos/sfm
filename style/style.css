@@ -31,11 +31,11 @@ header {
 
 #logotipo {
     text-align: center;
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 
 #logo {
-    width: 18%;
+    width: 25%;
 }
 
 #ph1 {
@@ -107,12 +107,14 @@ main {
 
 #formulario {
     margin: auto;
-    width: 95%;
+    max-width: 300px;
+    min-width: 200px;
     background-color: rgba(0, 0, 0, 0.411);
     padding: 20px;
 }
 
-input, select {
+input,
+select {
     border: none;
     width: 100%;
     padding: 10px;
@@ -129,7 +131,7 @@ input[type="submit"] {
 
 #creditos {
     text-align: center;
-    padding: 30px 10px;
+    padding: 30px;
     background-color: var(--cor5);
 }
 
@@ -140,9 +142,10 @@ input[type="submit"] {
 
 .caixa {
     position: relative;
-    border: 1px solid var(--cor1);
+    border: 2px solid var(--cor1);
     margin: 10px auto;
-    width: 80%;
+    min-width: 200px;
+    max-width: 250px;
     height: 300px;
 }
 
@@ -180,7 +183,7 @@ input[type="submit"] {
     padding: 3px;
 }
 
-.provDiv{
+.provDiv {
     padding: 5px;
     margin: 3px;
     border: 1px dotted;
@@ -190,6 +193,15 @@ input[type="submit"] {
     width: 47%;
     display: inline-block;
     margin-top: 15px;
+}
+
+.bt {
+    margin: 5px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1.5px solid var(--cor1);
+    padding: 6px;
 }
 
 #logotipo p {

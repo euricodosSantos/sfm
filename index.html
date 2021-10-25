@@ -53,13 +53,13 @@
             <div id="creditos">
                 <h2>Linhas de Crédito</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                <div class="caixa" onmouseover="corAmarela(this, 'ad1')" onmouseout="corAzul(this, 'ad1')">
+                <div class="caixa">
                     <h3>Linha de Credito 1</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio nobis maxime molestias
                     </p>
                     <input type="button" value="Aderir" id="ad1" class="aderir">
                 </div>
-                <div class="caixa" onmouseover="corAmarela(this , 'ad2')" onmouseout="corAzul(this ,'ad2')">
+                <div class="caixa">
                     <h3>Linha de Credito 2</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores odio nobis maxime molestias
                     </p>
@@ -72,30 +72,19 @@
                     <p id="ph1">Solver Financial Multiservice,SA</p>
                     <p id="ph2">Servicos financeirios</p>
                 </div>
-                <div class="provDiv">
-                    <h3>Beira</h3>
-                    <p>Av. Lorem ipsum, 1233 - Maputo</p>
-                    <p>+285 87 111 1111 / 84 111 1111</p>
-                    <p>lorem@gmail.com</p>
-
-                </div>
-                <div class="provDiv">
-                    <h3>Maputo</h3>
-                    <p>Av. Lorem ipsum, 1233 - Maputo</p>
-                    <p>+285 87 111 1111 / 84 111 1111</p>
-                    <p>lorem@gmail.com</p>
-                </div>
-                <div class="provDiv">
-                    <h3>Nampula</h3>
-                    <p>Av. Lorem ipsum, 1233 - Maputo</p>
-                    <p>+285 87 111 1111 / 84 111 1111</p>
-                    <p>lorem@gmail.com</p>
-                </div>
-                <div class="provDiv">
-                    <h3>Nampula</h3>
-                    <p>Av. Lorem ipsum, 1233 - Maputo</p>
-                    <p>+285 87 111 1111 / 84 111 1111</p>
-                    <p>lorem@gmail.com</p>
+                <h3>Contacte em funcao da sua Provincia
+                </h3>
+                <button  class="bt" onclick="mudarProv
+                (this, 'mp')">Maputo</button>
+                <button class="bt" onclick="mudarProv
+                (this, 'zb')">Zambézia</button>
+                <button class="bt" onclick="mudarProv
+                (this, 'np')">Nampula</button>
+                <button class="bt" onclick="mudarProv
+                 (this, 'in')">Inhambane</button>
+                <button class="bt" onclick="mudarProv
+                  (this, 'mc')">Manica</button>
+                <div id="prov">
                 </div>
             </div>
         </article>
