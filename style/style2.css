@@ -35,13 +35,13 @@
     header {
         position: relative;
         background: none;
-        background-color: rgba(0, 0, 0, 0.548);
+        background-color: rgba(0, 0, 0, 0.658);
         padding: 10px;
         display: flex;
     }
 
     header div#logotipo {
-        width: 80%;
+        width: 50%;
         transform: translateX(-30%);
     }
 
@@ -50,8 +50,9 @@
     }
 
     nav {
+        display: block;
         background: none;
-        width: 50%
+        width: 50%;
     }
 
     nav ul {
@@ -64,9 +65,9 @@
         border: none;
     }
 
-    nav a {
-        font-size: small;
+    nav ul li a {
         color: white;
+        font-size: small;
         text-decoration: none;
         transition-property: background-color, padding, border-radius;
         transition-duration: 100ms, 1s, 100ms;
@@ -82,7 +83,7 @@
 
     #sub:hover {
         background-color: var(--cor3);
-        color:black;
+        color: black;
     }
 
     .caixa {
@@ -106,6 +107,11 @@
         transition: 500ms;
     }
 
+    #contacto #logotipo {
+        width: 50%;
+        margin: auto;
+    }
+
     #celular::before {
         content: "\f095";
     }
@@ -119,25 +125,11 @@
     nav ul {
         transform: translate(0%, 70%);
     }
-
-    nav ul li {
-        display: inline-block;
-    }
 }
 
-
 @media screen and (min-width: 600px) {
-
     nav {
         width: auto;
-    }
-
-    nav ul {
-        transform: translate(0%, 70%);
-    }
-
-    nav ul li {
-        display: inline-block;
     }
 
     .aderir {
@@ -147,12 +139,21 @@
 }
 
 @media screen and (min-width: 800px) {
-    #home{
-        padding: 60px 30px;
+    #home {
+        position: relative;
     }
 
-    #texto{
-        width: 50%;
-        float: left;
+    #texto {
+        max-width: 450px;
+        position: absolute;
+        left: 30px;
+        top: 20%;
+    }
+
+    #formulario {
+        position: absolute;
+        right: 30px;
+        top: 20%;
+
     }
 }
