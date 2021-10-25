@@ -36,12 +36,12 @@
                     <p>Adira já ao Crédito Colaborador e dê o passo certo.</p>
                 </div>
                 <div id="formulario">
-                    <form>
-                        <input type="text" name="nome" placeholder="Nome Completo">
-                        <input type="email" name="email" id="" placeholder="Email">
-                        <input type="tel" name="celular" id="" placeholder="Telefone/Celular">
+                    <form method="post">
+                        <input type="text" name="nome" placeholder="Nome Completo*" required minlength="3">
+                        <input type="email" name="email" id="" placeholder="Email*" required>
+                        <input type="tel" name="celular" id="" placeholder="Telefone/Celular*" required min="9" max="13">
                         <input type="text" name="" id="nome-empresa" placeholder="Nome da empresa">
-                        <select name="provincia" id="">
+                        <select name="provincia" id="" required>
                             <option value="MP">Maputo</option>
                             <option value="BR">Beira</option>
                             <option value="NP">Nampula</option>
