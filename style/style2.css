@@ -182,6 +182,12 @@
         height: 100vh;
       
     }
+    #creditos p#p{
+        border-bottom: solid var(--cor1);
+        width: 50%;
+        padding-bottom: 20px;
+        margin-left: 305px;
+    }
 
     .caixa {
         font-size: large;
