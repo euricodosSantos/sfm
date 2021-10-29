@@ -115,7 +115,11 @@
         transition: 500ms;
     }
     #contacto{
-        padding: 20px;
+        padding-top: 100px;
+        
+    }
+    #contacto h4{
+        padding-top: 20px;
     }
 
     #contacto #logotipo {
@@ -174,8 +178,9 @@
 
     #creditos {
         font-size: larger;
-        padding-top: 80px;
+        padding-top: 50px;
         height: 100vh;
+      
     }
 
     .caixa {
