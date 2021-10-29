@@ -93,7 +93,12 @@
         display: inline-table;
         margin: 20px;
         max-width: 280px;
-        height: 60vh;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .caixa:hover{
+          max-width :290px;
+          transition: 1s;
     }
 
     input.aderir {
