@@ -127,7 +127,8 @@
         
     }
     #contacto h4{
-        padding-top: 20px;
+        padding-top: 40px;
+        position: relative;
     }
 
     #contacto #logotipo {
@@ -188,4 +189,9 @@
         font-size: large;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
     }
+}
+.icones{
+   position: absolute; 
+   width: 20px;
+   
 }
