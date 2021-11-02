@@ -128,7 +128,8 @@
     }
     #contacto h4{
         padding-top: 40px;
-        position: relative;
+        color:rgb(18, 140, 177);
+    
     }
 
     #contacto #logotipo {
@@ -187,11 +188,15 @@
 
     .caixa {
         font-size: large;
-        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     }
 }
 .icones{
    position: absolute; 
    width: 20px;
+   margin-left:-30px;
+  
+   
+   
    
 }
