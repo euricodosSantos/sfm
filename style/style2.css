@@ -80,6 +80,15 @@
         color: var(--cor3);
     }
 
+    #home{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-around;
+    }
+
     #sub:hover {
         background-color: var(--cor3);
         color: black;
@@ -89,8 +98,15 @@
         max-width: 370px;
     }
 
+    #dsp{
+        margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
     .caixa {
-        display: inline-table;
         margin: 20px;
         max-width: 280px;
         height: auto;
@@ -106,6 +122,7 @@
     }
 
     input.aderir:hover {
+        bottom: 5px;
         background-color: var(--cor1);
         color: var(--cor5);
         font-weight: bold;
@@ -152,7 +169,7 @@
     }
 
     .aderir {
-        top: 40%;
+        top: 2%;
     }
 
 }
@@ -164,16 +181,8 @@
 
     #texto {
         font-size: larger;
-        max-width: 450px;
-        position: absolute;
-        left: 10%;
-        top: 20%;
-    }
-
-    #formulario {
-        position: absolute;
-        right: 10%;
-        top: 20%;
+        min-width: 200px;
+        max-width: 380px;
     }
 
     #creditos {
@@ -182,12 +191,7 @@
         height: 100vh;
       
     }
-    #creditos p#p{
-        border-bottom: solid var(--cor1);
-        width: 50%;
-        padding-bottom: 20px;
-        margin-left: 305px;
-    }
+
 
     .caixa {
         font-size: large;
