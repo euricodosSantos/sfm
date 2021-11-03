@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
     @keyframes changeimage {
         25% {background: url(../imagens/imagem4.jpeg) no-repeat;
          background-size: contain;
@@ -94,7 +94,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     }
 
     .caixa {
@@ -123,7 +123,7 @@
         transition: 500ms;
     }
     #contacto{
-        padding-top: 100px;
+        padding-top: 50px;
         
     }
     #contacto h4{
@@ -199,4 +199,12 @@
    
    
    
+}
+#local h4{
+    display: inline-block;
+    margin-left: 80px;
+    padding: 10px;
+}
+strong{
+    font-size: 20px;
 }
