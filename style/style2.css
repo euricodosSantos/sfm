@@ -29,6 +29,11 @@
         background-color: rgba(0, 0, 0, 0.651);
         padding: 10px;
         display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+    
     }
 
     header div#logotipo {
