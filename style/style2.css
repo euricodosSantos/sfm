@@ -1,4 +1,18 @@
 @media screen and (min-width: 420px) {
+
+     @keyframes typing{
+        
+         20%{
+             color:var(--cor2);
+            
+         }
+         50%{
+            
+            color:var(--cor3);
+         }
+         
+     }   
+    
     @keyframes changeimage {
         25% {background: url(../imagens/imagem4.jpeg) no-repeat;
          background-size: contain;
@@ -35,6 +49,17 @@
         flex-flow: column-reverse;
     
     }
+
+
+#texto h1{
+    animation: typing 4s  1s normal ;
+    white-space: wrap;
+    
+    animation-iteration-count: infinite;
+
+    overflow: hidden;
+}
+  
 
     header div#logotipo {
         width: 300px;
