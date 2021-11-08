@@ -161,6 +161,7 @@
         color:rgb(18, 140, 177);
     
     }
+   
 
     #contacto #logotipo {
         width: 50%;
@@ -169,6 +170,47 @@
 
     #celular::before {
         content: "\f095";
+    }
+    #sobre{
+        background-color:var(--cor5);
+        margin: auto;
+
+
+    }
+   #sobre h2{
+       padding: auto;
+       padding-top: 30px;
+       text-align: center;
+       color: var(--cor1);
+   }
+    #sobrenos{
+        display:flex ;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        font-size: larger;
+         padding: 50px;
+        background-color: var(--cor5);
+        
+        
+
+    }
+    #imagens {
+        background: url(../imagens/imagem7.jpg)no-repeat;
+        width: 600px;
+        height: 400px;
+   
+    }
+    #stxt{
+        padding: 10px;
+    
+        
+    }
+    #stxt h3{
+        max-width: 80%;
+        padding: 5px;
+        color: var(--cor1);
     }
 }
 
@@ -207,6 +249,7 @@
         min-width: 200px;
         max-width: 380px;
     }
+   
 
     #creditos {
         font-size: larger;
