@@ -184,13 +184,14 @@
        color: var(--cor1);
    }
     #sobrenos{
+        box-sizing: border-box;
+        margin: auto;
+        max-width: 100%;
         display:flex ;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        
-        font-size: larger;
-         padding: 50px;
+        justify-content:space-around;
+        padding: 40px;
         background-color: var(--cor5);
         
         
@@ -200,10 +201,14 @@
         background: url(../imagens/imagem7.jpg)no-repeat;
         width: 600px;
         height: 400px;
+        
    
     }
     #stxt{
+
         padding: 10px;
+        margin-top: 40px;
+        padding-left: 50px;
     
         
     }
