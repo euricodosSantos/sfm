@@ -52,3 +52,24 @@ function mudarProv(boatao, prov) {
       provDiv.innerHTML += "<p>\u{1F4DE}+258 86 813 0474</p>"
   }
 }
+
+/* troca de imagens  */
+function trocar(){
+  let change  = document.querySelector('body')
+  let th1=document.getElementById('h1')
+  let tp1 = document.getElementById('P1')
+  change.style.background = 'url(../imagens/imagem6.jpg) no-repeat'
+  change.style.backgroundSize='cover'
+  th1.innerHTML= 'Planifique o seu futuro aqui '
+  tp1.innerHTML = 'Adira ao Credito e comece aqui a sua jornada de sucesso.'
+}
+function voltar (){
+  let change  = document.querySelector('body')
+  let th1=document.getElementById('h1')
+  let tp1 = document.getElementById('P1')
+  change.style.background = 'url(../imagens/imagem5.jpg) no-repeat'
+  change.style.backgroundSize='cover'
+  th1.innerHTML= 'Acelere os seus projectos de vida connosco'
+  tp1.innerHTML = 'Adira já ao Crédito Colaborador e dê o passo certo.'
+
+}
