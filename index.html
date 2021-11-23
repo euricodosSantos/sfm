@@ -32,10 +32,40 @@
 
     <main>
         <article>
-            <div id="home" onclick="trocar() " ondblclick="voltar()">
-                <div id="texto">
-                    <h1 id="h1" >Acelere os seus projectos de vida connosco</h1>
-                    <p id="P1">Adira já ao Crédito Colaborador e dê o passo certo.</p>
+            <div id="home">
+
+                <div id="slide">
+                    <!--radio button start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--radio button end-->
+                    <div class="texto">
+                        <img src="imagens/imagem8.jpg" alt="" srcset="">
+                        <h1 id="h1" >Transforme os seus planos em objectivos atraves de finaciamento Bancario</h1>
+                        <p id="P1">Funcionario publico</p>
+                        <p id="p2">Micro empreendedor </p>
+                    </div>
+                    <div class="texto">
+                        <img src="imagens/imagem6.jpg" alt="" srcset="">
+                        <h1 id="h1" >Transforme os seus planos em objectivos atraves de finaciamento Bancario</h1>
+                        <p id="P1">Funcionario publico</p>
+                        <p id="p2">Micro empreendedor </p>
+                    </div>
+
+                    <!--automatic navegation-->
+                    <div class="navegation-auto">
+                        <div class="auto-btn1" ></div>
+                        <div class="auto-btn2" ></div>
+                        <!--Navegacao manual-->
+                        <div class="navegation-manual">
+                            <label for="radio1" class="manual-btn" id=""></label>
+                            <label for="radio2" class="manual-btn" id=""></label>
+                        </div>
+                        
+
+                    </div>
                 </div>
 
             </div>
@@ -97,7 +127,7 @@
                             <option value="BR">Beira</option>
                             <option value="NP">Nampula</option>
                         </select>
-                        <input type="submit" value="Submeter" id="sub">
+                        <input id="submit" type="submit" value="Submeter" id="sub">
                     </form>
                 </div>
                 <div id="logotipo">

@@ -15,26 +15,19 @@
 
     
     @keyframes changeimage {
-        25% {background: url(../imagens/imagem4.jpeg) no-repeat;
+      from {background: url(../imagens/imagem8.jpg) no-repeat;
          background-size: contain;
         }
-         50%{
-             background: url(../imagens/imagem6.jpg) no-repeat;
+         to{
+             background: url(../imagens/imagem7.jpg) no-repeat;
          }
       
     }
 
     body {
-        background: url(../imagens/imagem5.jpg) no-repeat;
-        background-size: cover;
-        animation-name: changeimage;
-        animation-duration: 20s;
-        animation-direction: alternate;
-        animation-fill-mode: backwards;
-        animation-iteration-count: infinite;
-        animation-timing-function:linear;
-        animation-play-state: paused;
-        
+       /* background: url(../imagens/imagem5.jpg) no-repeat;
+        background-size: cover;*/
+      
       
     }
 
@@ -57,7 +50,6 @@
     white-space: wrap;
     
     animation-iteration-count: 10s;
-
     overflow: hidden;
     animation-name: aparecer;
     animation-duration: 2s;
@@ -113,12 +105,19 @@
     }
 
     #home{
+        overflow: hidden;
+    }
+
+    #slide{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        align-content: space-around;
+        width:500px;
+      
+      
+    }
+
+
+    .texto{
+      
     }
 
     #sub:hover {
@@ -212,6 +211,14 @@
         background: url(../imagens/imagem7.jpg)no-repeat;
         width: 600px;
         height: 400px;
+        animation-name: changeimage;
+        animation-duration: 5s;
+        animation-direction: alternate;
+        animation-fill-mode: backwards;
+        animation-iteration-count: infinite;
+        animation-timing-function:linear;
+        animation-play-state: running;
+        
         
    
     }
@@ -328,4 +335,28 @@ input {
 }
 form{
     overflow: hidden;
+}
+/*animacao do form */
+@keyframes no {
+    15%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-15%);
+        background-color: red;
+    }
+    70%{
+        transform: translateX(15%);
+        background-color: red;
+    }
+    100%{
+        transform: translateX(0);
+        background-color:red; 
+    }
+}
+
+.form-none{
+    overflow: hidden;
+    animation-name:no;
+    animation-duration: 1s;
 }

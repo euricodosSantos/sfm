@@ -18,8 +18,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url("../imagens/imagem5.jpg") no-repeat;
-    background-size: cover;
+   /* background: url("../imagens/imagem5.jpg") no-repeat;
+    background-size: cover; */
 }
 
 header {
@@ -94,9 +94,9 @@ main {
     background-color: rgba(0, 0, 0, 0.548);
 }
 
-#texto {
-    min-width: 200px;
-    max-width: 350px;
+
+.texto {
+    width: 500px;
     margin: 30px auto;
 }
 
