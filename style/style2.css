@@ -107,7 +107,7 @@
 
     #stxt {
         text-align: justify;
-        width: 50%;
+        width: 100%;
         padding-left: 30px;
     }
 
@@ -224,4 +224,48 @@
     #logotipo {
         text-align: center;
     }
+}
+
+/*sobre nos update extra*/
+.sconteudo{
+    margin-top:100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+.sobre_nos{
+    width: 40%;
+ 
+}
+.imagem{
+   
+    width: 50%;
+    height: 50vh;
+
+}
+#imagem0{
+    background: url(../imagens/photo4.jpeg) no-repeat;
+    background-size: cover;
+  
+}
+#imagem1{
+background:url(../imagens/imagem4.jpg)no-repeat;
+background-size: cover;
+}
+#imagem2{
+    background: url(../imagens/imagem8.jpg) no-repeat;
+    background-size: cover;
+}
+#imagem3{
+    background: url(../imagens/i01.jpg) no-repeat;
+    background-size: cover;
+}
+#imagem4{
+    background: url(../imagens/photo5.jpeg)no-repeat;
+    background-size: cover;
+  
 }

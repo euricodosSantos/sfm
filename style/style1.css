@@ -250,20 +250,6 @@ main {
     align-items: center;
 }
 
-#imagens {
-    box-sizing: border-box;
-    background: url(../imagens/imagem7.jpg)no-repeat;
-    width: 40%;
-    height: 400px;
-    animation-name: changeimage;
-    animation-duration: 5s;
-    animation-direction: alternate;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-play-state: running;
-
-}
 
 
 #stxt {
@@ -344,6 +330,7 @@ h2 img {
     max-height: 90vh;
     background-color: rgba(255, 255, 255, 0.889);
 }
+
 
 .caixa h3 {
     font-family: var(--fonte-titulo);
@@ -529,6 +516,12 @@ footer {
 
 footer p {
     padding: 10px;
+}
+button:hover{
+    transition: 800ms;
+    background: var(--cor1);
+    color: white;
+    font-weight: bold;
 }
 
 abbr {
