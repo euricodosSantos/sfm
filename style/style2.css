@@ -1,68 +1,48 @@
-@media screen and (min-width: 420px) {
-
-     @keyframes typing{
-        
-         20%{
-             color:var(--cor2);
-            
-         }
-         55%{
-            
-            color:var(--cor3);
-         }
-         
- }   
-
-    
-    @keyframes changeimage {
-      from {background: url(../imagens/imagem8.jpg) no-repeat;
-         background-size: contain;
-        }
-         to{
-             background: url(../imagens/imagem7.jpg) no-repeat;
-         }
-      
+@keyframes changeimage {
+    from {
+        background: url(../imagens/imagem8.jpg) no-repeat;
+        background-size: contain;
     }
 
-    body {
-       /* background: url(../imagens/imagem5.jpg) no-repeat;
-        background-size: cover;*/
-      
-      
+    to {
+        background: url(../imagens/imagem7.jpg) no-repeat;
     }
 
-    header {
-        position: relative;
-        background: none;
-        background-color: rgba(0, 0, 0, 0.651);
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content:space-around;
-        flex-wrap: wrap;
-        flex-flow: column-reverse;
-    
-    }
-
-
-#texto h1{
-    animation: typing 4s  1s normal ;
-    white-space: wrap;
-    
-    animation-iteration-count: 10s;
-    overflow: hidden;
-    animation-name: aparecer;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-iteration-count: 2s;
- 
 }
 
-  
+@keyframes mover {
+    from {
+        transform: translateX(-50%);
+    }
 
-    header div#logotipo {
-        width: 300px;
-        transform: translateX(-15%);
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (min-width: 570px) {
+    body{
+        font-size: larger;
+    }
+    header {
+        color: white;
+        padding: 10px;
+        display: flex;
+        background-color: transparent;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header.sticky {
+        transition: 0.2s;
+        background-color: var(--cor5);
+        padding: 0px;
+        border-bottom: 1px solid var(--cor1);
+    }
+
+    header.sticky nav ul li a {
+        color: var(--cor1);
+
     }
 
     #btMenu {
@@ -70,89 +50,151 @@
     }
 
     nav {
-        display: block;
+        width: fit-content;
         background: none;
-        width: 50%;
         animation-name: aparecer;
         animation-duration: 1s;
         animation-delay: 1s;
         animation-iteration-count: 2s;
+        display: inline-block;
+        padding-right: 50px;
     }
 
     nav ul {
-        transform: translate(0px, 3%);
+        list-style: none;
     }
 
     nav ul li {
-        display: inline-block;
-        padding: 5px;
+        display: inline;
+        padding: 2px;
         border: none;
+        animation-name: mover;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        margin-left: 10px;
     }
 
     nav ul li a {
         color: white;
-        font-size: medium;
-        text-decoration: none;
+        padding: 2px;
+        border: none;
         transition-property: background-color, padding, border-radius;
         transition-duration: 100ms, 1s, 100ms;
         transition-delay: 100ms;
     }
 
     #menu a:hover {
-        padding: 10px;
+        padding: 5px;
         border-radius: 2px;
         color: var(--cor3);
     }
 
-    #home{
+    #btMenu {
+        padding-left: 50px;
+    }
+
+    div>.circulo {
+        margin-top: -40px;
+    }
+
+    .tras {
+        margin-top: -600px;
+
+        border-radius: 50%;
+        position: absolute;
+        left: 5px;
+    }
+
+    #stxt {
+        text-align: justify;
+        width: 50%;
+        padding-left: 30px;
+    }
+
+    .give {
+        display: block;
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+
+
+    .gives li,
+    .gives h2 {
+        padding: 10px;
+    }
+
+    .frente {
+        margin-top: -600px;
+        border-radius: 50%;
+        position: absolute;
+        right: 5px;
+    }
+
+
+    #creditos {
+        font-size: larger;
+    }
+
+
+    .caixa {
+        position: relative;
+        min-height: 50vh;
+        width: 50%;
+        min-height: 55vh;
+
+    }
+
+    .caixa h3,
+    .caixa p {
+        padding: 15px;
+    }
+
+    .conteiner {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .conteiner #formulario {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgBx {
+        display: block;
+        position: relative;
+        width: 40%;
+        height: 100%;
         overflow: hidden;
     }
 
-    #slide{
-        display: flex;
-        width:500px;
-      
-      
-    }
-
-
-    .texto{
-      
-    }
-
-    #sub:hover {
+    .imgBx::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 90%;
+        height: 100%;
         background-color: var(--cor3);
-        color: black;
+        transform-origin: bottom;
+        transform: skewX(50deg) translateX(0%);
     }
 
-    #formulario{
-        max-width: 370px;
+    .imgBx img {
+        width: 80%;
+        max-height: 100%;
     }
 
-    #dsp{
-        margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    }
-
-    .caixa {
-        margin: 20px;
-        max-width: 280px;
-        height: auto;
-        padding-bottom: 10px;
-    }
-    .caixa:hover{
-          max-width :290px;
-          transition: 1s;
-    }
-
-    input.aderir {
+    .aderir {
+        position: absolute;
+        bottom: 2%;
+        left: 20%;
         transition-property: backgrand-color, padding;
     }
 
-    input.aderir:hover {
+    .aderir:hover {
         bottom: 5px;
         background-color: var(--cor1);
         color: var(--cor5);
@@ -162,201 +204,24 @@
         transition-delay: 100ms;
         transition: 500ms;
     }
-    #contacto{
-        padding-top: 50px;
-        
-    }
-    #contacto h4{
-        padding-top: 40px;
-        color:rgb(18, 140, 177);
-    
-    }
-   
 
-    #contacto #logotipo {
-        width: 50%;
-        margin: auto;
-    }
-
-    #celular::before {
-        content: "\f095";
-    }
-    #sobre{
-        background-color:var(--cor5);
-        margin: auto;
-
-
-    }
-   #sobre h2{
-       padding: auto;
-       padding-top: 30px;
-       text-align: center;
-       color: var(--cor1);
-   }
-    #sobrenos{
-        box-sizing: border-box;
-        margin: auto;
-        max-width: 100%;
-        display:flex ;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content:space-around;
-        padding: 40px;
-        background-color: var(--cor5);
-        
-        
-
-    }
-    #imagens {
-        background: url(../imagens/imagem7.jpg)no-repeat;
-        width: 600px;
-        height: 400px;
-        animation-name: changeimage;
-        animation-duration: 5s;
-        animation-direction: alternate;
-        animation-fill-mode: backwards;
-        animation-iteration-count: infinite;
-        animation-timing-function:linear;
-        animation-play-state: running;
-        
-        
-   
-    }
-    #stxt{
-
+    #local h4 {
+        display: inline-block;
+        margin-left: 80px;
         padding: 10px;
-        margin-top: 40px;
-        padding-left: 50px;
-    
-        
     }
-    #stxt h3{
-        max-width: 80%;
-        padding: 5px;
+
+    strong {
+        font-style: oblique;
+        font-size: 18px;
         color: var(--cor1);
     }
-}
 
-@media screen and (min-width: 500px) {
-    nav {
-        width: 60%;
+    .maior {
+        font-size: 30px;
     }
 
-    nav ul {
-        transform: translate(-20%, 50%);
+    #logotipo {
+        text-align: center;
     }
-}
-
-@media screen and (min-width: 600px) {
-    nav {
-        width: auto;
-    }
-
-        nav ul {
-        transform: translate(-30%, 50%);
-    }
-
-    .aderir {
-        top: 2%;
-    }
-
-}
-
-@media screen and (min-width: 800px) {
-    #home {
-        position: relative;
-    }
-
-    #texto {
-        font-size: larger;
-        min-width: 200px;
-        max-width: 380px;
-    }
-   
-
-    #creditos {
-        font-size: larger;
-        padding-top: 50px;
-        height: auto;
-      
-    }
-
-
-    .caixa {
-        font-size: large;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-        
-    }
-    .caixa p{
-        margin-bottom: 20px;
-    }
-}
-
-.icones{
-   position: absolute; 
-   width: 20px;
-   margin-left:-30px;
-  
-   
-   
-   
-}
-#local h4{
-    display: inline-block;
-    margin-left: 80px;
-    padding: 10px;
-}
-strong{
-     font-style: oblique;
-    font-size: 18px;
-    color: var(--cor1);
-}
-.maior{
-    font-size:30px;
-}
-/*
-Animacao adicional 
-*/
-@keyframes aparecer{
-    from{
-         transform: translateX(-35%);
-        
-    }
-    to{
-      transform: translateX(0);
-    }
-    
-     }
-input {
-    animation-name: aparecer;
-    animation-duration: 1s;
-    animation-delay: 1s;
-}
-form{
-    overflow: hidden;
-}
-/*animacao do form */
-@keyframes no {
-    15%{
-        transform: translateX(0);
-    }
-    30%{
-        transform: translateX(-15%);
-        background-color: red;
-    }
-    70%{
-        transform: translateX(15%);
-        background-color: red;
-    }
-    100%{
-        transform: translateX(0);
-        background-color:red; 
-    }
-}
-
-.form-none{
-    overflow: hidden;
-    animation-name:no;
-    animation-duration: 1s;
 }
