@@ -285,3 +285,7 @@ background-size: cover;
 #logofinal h3{
     text-align: center;
 }
+.lm:hover{
+    transition: 500ms;
+  text-decoration: underline;
+}
