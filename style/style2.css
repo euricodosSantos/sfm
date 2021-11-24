@@ -241,6 +241,11 @@
     width: 40%;
  
 }
+.sobre_nos h3{
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
 .imagem{
    
     width: 50%;
@@ -265,7 +270,18 @@ background-size: cover;
     background-size: cover;
 }
 #imagem4{
-    background: url(../imagens/photo5.jpeg)no-repeat;
+    background: url(../imagens/i06.jpg)no-repeat;
     background-size: cover;
   
+}
+#logofinal{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+#logofinal img{
+    margin-left: 38%;
+}
+#logofinal h3{
+    text-align: center;
 }
