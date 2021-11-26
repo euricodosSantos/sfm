@@ -134,6 +134,7 @@
 
     #creditos {
         font-size: larger;
+    
     }
 
 
@@ -227,9 +228,13 @@
 }
 
 /*sobre nos update extra*/
+.visao{
+ 
+    background-color: white;
+}
 .sconteudo{
-    margin-top:100px;
-    padding-bottom: 50px;
+    margin-top:50px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -244,12 +249,15 @@
 .sobre_nos h3{
     margin-bottom:20px;
     font-weight: bold;
+    margin-top: 40px;
+    text-indent: 20px;
 }
 
 .imagem{
-   
+    margin-top: 50px;
     width: 50%;
     height: 50vh;
+    
 
 }
 #imagem0{
@@ -283,7 +291,7 @@ background-size: cover;
     margin: auto;
 }
 #logofinal img{
-    margin-left: 38%;
+    margin: auto;
 }
 #logofinal h3{
     text-align: center;
