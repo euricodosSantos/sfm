@@ -241,6 +241,23 @@
         min-height: 50vh;
     }
 }
+#sucesso{
+    padding-top: 200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#sucesso img{
+   
+    width: 10%;
+    height: 20%;
+}
 
 @media screen and (min-height: 800px) {
     .caixa {
