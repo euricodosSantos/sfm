@@ -66,10 +66,10 @@ function frente() {
 
 function tras() {
   if (rad1.checked == true) {
-    rad3.checked = true;
-    circulo1.setAttribute("src", "./imagens/circulo.png");
-    circulo3.setAttribute("src", "./imagens/circulo.png");
-    circulo3.setAttribute("src", "./imagens/circulo-preenchido.png");
+    rad1.checked = true;
+    circulo2.setAttribute("src", "./imagens/circulo.png");
+    circulo2.setAttribute("src", "./imagens/circulo.png");
+    circulo1.setAttribute("src", "./imagens/circulo-preenchido.png");
   } else if (rad3.checked == true) {
     rad2.checked = true;
     circulo1.setAttribute("src", "./imagens/circulo.png");
