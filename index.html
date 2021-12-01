@@ -140,9 +140,11 @@
                 <h3>Contacte em função da sua Provincia</h3>
                 <div class="conteiner">
                     <div id="formulario">
-                        <form action="" method="post">
+                        <form action="https://api.staticforms.xyz/submit" method="post">
+                            <!--<input type="hidden" name="redirectTo" value="https://example.com/contact/success">-->
+                            <input type="hidden" name="accessKey" value="cfb5549f-386d-4db0-917f-c6dc80817b09">
                             <div class="inputBox">
-                                <input type="text" name="nome" required minlength="3">
+                                <input type="text" name="name" required minlength="3">
                                 <span>Nome Completo</span>
                             </div>
                             <div class="inputBox">
@@ -150,18 +152,20 @@
                                 <span>Email</span>
                             </div>
                             <div class="inputBox">
-                                <input type="tel" name="celular" id="" required min="9" max="13">
+                                <input type="tel" name="phone" id="" required min="9" max="13">
                                 <span>Telefone/Celular</span>
                             </div>
                             <div class="inputBox">
-                                <input type="text" name="" id="nome-empresa" required>
+                                <input type="text" name="$Nome da empresa" id="nome-empresa" required>
                                 <span>Nome da instituicao</span>
                             </div>
                             <div class="inputBox">
-                                <select name="provincia" id="" required>
-                                    <option value="MP">Maputo</option>
-                                    <option value="BR">Beira</option>
-                                    <option value="NP">Nampula</option>
+                                <select name="$Provincia" id="" required>
+                                    <option value="Maputo">Maputo</option>
+                                    <option value="Beira">Zambézia</option>
+                                    <option value="Nampula">Nampula</option>
+                                    <option value="Nampula">Inhambane</option>
+                                    <option value="Nampula">Manica</option>
                                 </select>
                             </div>
                             <div class="inputBox">
