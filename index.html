@@ -20,10 +20,10 @@
         </div>
         <img src="imagens/menu.png" alt="" id="btMenu" onclick="menu()">
         <nav id="menu">
-            
+
             <ul>
                 <li><a class="lm" href="#home">Home</a></li>
-                <li><a class="lm" href="sobre.html" target="_self" id="nos">Sobre Nós  </a></li>
+                <li><a class="lm" href="sobrenos.html" target="_self" id="nos">Sobre Nós </a></li>
                 <li><a class="lm" href="#creditos">Creditos</a></li>
                 <li><a class="lm" href="#contacto">Contacto</a></li>
 
@@ -33,16 +33,17 @@
 
     <main>
         <article>
-            
             <div id="home">
-           
+                <input type="radio" name="rad-slide" id="rad0">
                 <input type="radio" name="rad-slide" id="rad1" checked>
                 <input type="radio" name="rad-slide" id="rad2">
+                <input type="radio" name="rad-slide" id="rad3">
+                <input type="radio" name="rad-slide" id="rad4">
                 <div id="slide">
                     <div class="texto slide1">
                         <div class="idv">
                             <div>
-                                <h1>Transforme os seus planos em objetivos,   através  de finaciamento Bancario</h1>
+                                <h1>Transforme os seus planos em objetivos, através de finaciamento Bancario</h1>
                                 <p> Funcionário publico</p>
                                 <p>Micro empreendedor</p>
                             </div>
@@ -58,26 +59,48 @@
                             </div>
                         </div>
                     </div>
+                    <div class="texto slide3">
+                        <div class="idv">
+                            <div>
+                                <h1>Transforme os seus planos em objetivos, através de finaciamento Bancario</h1>
+                                <p> Funcionário publico</p>
+                                <p>Micro empreendedor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="texto slide1">
+                        <div class="idv">
+                            <div>
+                                <h1>Transforme os seus planos em objetivos, através de finaciamento Bancario</h1>
+                                <p> Funcionário publico</p>
+                                <p>Micro empreendedor</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="btSlides">
-                    <div class="seta tras" onclick="trocarSlide()"><img src="imagens/tras.png" alt=""
-                            onclick="preencher(this)" onmouseleave="seta(this)"></div>
-                    <div class="circulo"><img src="imagens/circulo-preenchido.png" alt="" id="c1"></div>
-                    <div class="circulo"><img src="imagens/circulo.png" alt="" id="c2"></div>
-                    <div class="seta frente" onclick="trocarSlide()"><img src="imagens/tras.png" alt=""
-                            onclick="preencher(this)" onmouseleave="seta(this)"></div>
-                </div>
+            </div>
+            <div id="btSlides">
+                <div class="seta tras" onclick="trocarSlide(0)"><img src="imagens/tras.png" alt=""
+                        onclick="preencher(this)" onmouseleave="seta(this)"></div>
+                <div class="circulo"><img src="imagens/circulo-preenchido.png" alt="" id="c1"></div>
+                <div class="circulo"><img src="imagens/circulo.png" alt="" id="c2"></div>
+                <div class="circulo"><img src="imagens/circulo.png" alt="" id="c3"></div>
+                <div class="seta frente" onclick="trocarSlide(1)"><img src="imagens/tras.png" alt=""
+                        onclick="preencher(this)" onmouseleave="seta(this)"></div>
+            </div>
             </div>
             <div id="sobre_empresa">
                 <div id="img_empresa">
-                        <img src="imagens/IMG-20210923-WA0007.jpg" alt="">
+                    <img src="imagens/IMG-20210923-WA0007.jpg" alt="">
                 </div>
                 <div id="empresa_texto">
                     <h3>Sobre a Nossa Marca</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore voluptatum, unde dicta amet atque omnis saepe explicabo fuga illum accusamus soluta dolore nobis ipsa eum, eos eligendi, iusto necessitatibus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore voluptatum, unde dicta
+                        amet atque omnis saepe explicabo fuga illum accusamus soluta dolore nobis ipsa eum, eos
+                        eligendi, iusto necessitatibus.</p>
                 </div>
             </div>
-            
+
             <div id="creditos">
                 <h2>Créditos </h2>
                 <div id="dsp">
@@ -100,16 +123,15 @@
                         <a href="#contacto"><input type="button" value="Aderir" id="ad2" class="aderir"></a>
                     </div>
                     <div class="caixa">
-                        <h3>Créditos ao comerciante </h3>
-                        <p> <strong class="maior">3</strong> Dias de periodo de Desembolso </p>
-                        <p>Taxa Mensal de <strong> 25%</strong></p>
-                        <p>Montante Minimo <strong>30.000.00 Mts</strong></p>
-                        <p>Periodo <strong> 1</strong> a <strong>6</strong> Meses </p>
+                        <h3>Créditos ao Funcionario Publico</h3>
+                        <p><strong class="maior">7</strong> dias para o Desembolso </p>
+                        <p>Taxa Mensal de <strong>2.1% a 2.9%</strong> </p>
+                        <p>Periodos <strong> 6</strong> a <strong>72</strong> Meses </p>
+                        <p>Montante de <strong>20.000,00 ate 2.000.000.00 Mts</strong></p>
                         <p>Processo sem burocracia</p>
-                        <a href="#contacto"><input type="button" value="Aderir" id="ad2" class="aderir"></a>
+                        <a href="#contacto"><input type="button" value="Aderir" id="ad1" class="aderir"></a>
                     </div>
                 </div>
-               
             </div>
             <div id="contacto">
                 <div id="logotipo1">
@@ -118,7 +140,7 @@
                 <h3>Contacte em função da sua Provincia</h3>
                 <div class="conteiner">
                     <div id="formulario">
-                        <form method="post">
+                        <form action="" method="post">
                             <div class="inputBox">
                                 <input type="text" name="nome" required minlength="3">
                                 <span>Nome Completo</span>
@@ -175,7 +197,11 @@
     </main>
     <footer>
         <p>&copy; Copyright 2021,Slover Finacial Multiservice,SA.Todos direitos reservados</p>
-        <p> <p>Desenvolvido por <abbr title="Eurico dos Santos 845999149 "><a href="mailto:dossantoscambula@gmail.com">Cambula</a></abbr> & <abbr title="Natalino Agostinho 878255655"><a href="mailto:natalinoqueba@gmail.com" >Queba </a></abbr></p></p>
+        <p>
+            <p>Desenvolvido por <abbr title="Eurico dos Santos 845999149 "><a
+                        href="mailto:dossantoscambula@gmail.com">Cambula</a></abbr> & <abbr
+                    title="Natalino Agostinho 878255655"><a href="mailto:natalinoqueba@gmail.com">Queba </a></abbr></p>
+        </p>
     </footer>
     <script src="script/script.js"></script>
 </body>

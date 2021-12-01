@@ -8,23 +8,23 @@
     <title>Slover Finacial Multiservice,SA</title>
     <link rel="stylesheet" href="./style/style1.css">
     <link rel="stylesheet" href="./style/style2.css">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <div id="logotipo">
-            <img src="imagens/teste.png" alt="" id="logo">
+            <img src="./imagens/teste.png" alt="" id="logo">
             <p id="ph1">Solver Financial Multiservice,SA</p>
             <p id="ph2">Servicos financeirios</p>
         </div>
-        <img src="imagens/menu.png" alt="" id="btMenu" onclick="menu()">
+        <img src="./imagens/menu.png" alt="" id="btMenu" onclick="menu()">
         <nav id="menu">
             <ul>
-                <li><a class="lm" href="index.html" target="_self">Home</a></li>
-                <li><a class="lm" href="index.html" target="_self">Sobre Nos </a></li>
-                <li><a class="lm" href="index.html">Creditos</a></li>
-                <li><a class="lm" href="index.html">Contacto</a></li>
+                <li><a class="lm" href="./index.html" target="_self">Home</a></li>
+                <li><a class="lm" href="#sobrenos" target="_self">Sobre Nos </a></li>
+                <li><a class="lm" href="./index.html">Creditos</a></li>
+                <li><a class="lm" href="./index.html">Contacto</a></li>
 
             </ul>
         </nav>
@@ -33,14 +33,17 @@
     <main>
         <article>
             <div id="home">
+                <input type="radio" name="rad-slide" id="rad0">
                 <input type="radio" name="rad-slide" id="rad1" checked>
                 <input type="radio" name="rad-slide" id="rad2">
+                <input type="radio" name="rad-slide" id="rad3">
+                <input type="radio" name="rad-slide" id="rad4">
                 <div id="slide">
                     <div class="texto slide1">
                         <div class="idv">
                             <div>
-                                <h1 id="h1" >Sobre Nós</h1>
-                                <p>Funcionario publico</p>
+                                <h1>Transforme os seus planos em objetivos, através de finaciamento Bancario</h1>
+                                <p> Funcionário publico</p>
                                 <p>Micro empreendedor</p>
                             </div>
                         </div>
@@ -55,24 +58,42 @@
                             </div>
                         </div>
                     </div>
+                    <div class="texto slide3">
+                        <div class="idv">
+                            <div>
+                                <h1>Transforme os seus planos em objetivos, através de finaciamento Bancario</h1>
+                                <p> Funcionário publico</p>
+                                <p>Micro empreendedor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="texto slide1">
+                        <div class="idv">
+                            <div>
+                                <h1>Transforme os seus planos em objetivos, através de finaciamento Bancario</h1>
+                                <p> Funcionário publico</p>
+                                <p>Micro empreendedor</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="btSlides">
-                    <div class="seta tras" onclick="trocarSlide()"><img src="imagens/tras.png" alt=""
+                    <div class="seta tras" onclick="trocarSlide(0)"><img src="i./magens/tras.png" alt=""
                             onclick="preencher(this)" onmouseleave="seta(this)"></div>
-                    <div class="circulo"><img src="imagens/circulo-preenchido.png" alt="" id="c1"></div>
-                    <div class="circulo"><img src="imagens/circulo.png" alt="" id="c2"></div>
-                    <div class="seta frente" onclick="trocarSlide()"><img src="imagens/tras.png" alt=""
+                    <div class="circulo"><img src="./imagens/circulo-preenchido.png" alt="" id="c1"></div>
+                    <div class="circulo"><img src="./imagens/circulo.png" alt="" id="c2"></div>
+                    <div class="circulo"><img src="./imagens/circulo.png" alt="" id="c3"></div>
+                    <div class="seta frente" onclick="trocarSlide(1)"><img src="./imagens/tras.png" alt=""
                             onclick="preencher(this)" onmouseleave="seta(this)"></div>
                 </div>
             </div>
             <div id="sobre">
                 <h2>Sobre Nós</h2>
                 <div id="sobrenos">
-                    <div id='stxt'>
-                     
-                        <div id="misssao" class="sconteudo  visao">
+                    <div class='us'>
+                        <div id="misssao" class="sconteudo ">
                             <div class="sobre_nos">
-                                <h3> <img src="imagens/compartilhar.png" class="icones" alt="" srcset="">Missão</h3>
+                                <h3> <img src="./imagens/compartilhar.png" class="icones" alt="" srcset="">Missão</h3>
                                 <p>
                                     Ser a uma empresa de maior credibilidade no mercado de corretagem financeira, e
                                     confiável para os nossos parceiros, oferecendo melhores soluções e alternativas
@@ -80,32 +101,24 @@
                                 </p>
                             </div>
                             <div class="imagem" id="imagem0">
-
                             </div>
-                      
                         </div>
-                        <hr>
-                 
-                     
-                        <div id="visao" class="sconteudo">
+                        <div class="sconteudo">
                             <div class="sobre_nos">
-                                <h3> <img src="imagens/arquivo.png" class="icones" alt="" srcset=""> Visão</h3>
+                                <h3> <img src="./imagens/arquivo.png" class="icones" alt="" srcset=""> Visão</h3>
                                 <p>
-                                    Consolidar-se como uma empresa de referência para os nossos parceiros, não divulgação de
+                                    Consolidar-se como uma empresa de referência para os nossos parceiros, não
+                                    divulgação de
                                     produtos financeiros, e melhor opção para os nossos clientes na escolha do Producto
                                     adequado.
                                 </p>
                             </div>
-                            <div class="imagem"id="imagem1" >
-
+                            <div class="imagem" id="imagem1">
                             </div>
-                          
                         </div>
-                        <hr>
-                    
-                        <div  class="sconteudo">
+                        <div class="sconteudo">
                             <div class="sobre_nos ">
-                                <h3> <img src="imagens/frente.png" class="icones" alt="imagem">Porque Somos diferentes</h3>
+                                <h3> <img src="./imagens/frente.png" class="icones" alt="">Porque somos diferentes</h3>
                                 <ul class="lista">
                                     <li>Zelamos pela saúde finaceira</li>
                                     <li>Acessiblidade</li>
@@ -115,33 +128,25 @@
                                 </ul>
                             </div>
                             <div class="imagem" id="imagem2">
-
                             </div>
-                       
                         </div>
-                        <hr>
-
-                        <div  class="sconteudo visao">
+                        <div class="sconteudo">
                             <div class="sobre_nos">
-                            <h3> <img src="imagens/ganhe-dinheiro.png" class="icones" alt="icone">O Que oferecemos</h3>
-                            <ul class="lista">
-                                <li>Assistência funcionaria</li>
-                                <li>Novos créditos </li>
-                                <li>Gestor dedicado ao cliente</li>
-                                <li> Inclusão finaceira do sector privado</li>
-                            </ul>
+                                <h3> <img src="./imagens/ganhe-dinheiro.png" class="icones" alt="">O Que oferecemos
+                                </h3>
+                                <ul class="lista">
+                                    <li>Assistência funcionaria</li>
+                                    <li>Novos créditos </li>
+                                    <li>Gestor dedicado ao cliente</li>
+                                    <li> Inclusão finaceira do sector privado</li>
+                                </ul>
                             </div>
                             <div class="imagem" id="imagem3">
-
                             </div>
-                        
                         </div>
-                        <hr>
-                       
-                     <div id="valores" 
-                        class="sconteudo">
-                        <div class="sobre_nos">
-                            <h3><img src="imagens/sucesso.png" class="icones" alt="icone">Valores</h3>
+                        <div id="valores" class="sconteudo">
+                            <div class="sobre_nos">
+                                <h3><img src="./imagens/sucesso.png" class="icones" alt="">Valores</h3>
                                 <ul id="valores">
                                     <li>Transparência</li>
                                     <li>Fiabilidade</li>
@@ -151,29 +156,29 @@
                                     <li>Responsabilidade</li>
                                     <li>Cordialidade</li>
                                 </ul>
-                        </div>
-                            <div class="imagem" id="imagem4">
-
                             </div>
+                            <div class="imagem" id="imagem4">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                    
-                </div>
+            </div>
             </div>
             </div>
             <div id="logofinal">
-              
-                <img  src="imagens/IMG-20210923-WA0007.jpg" alt=""> 
-               <h3>Site compativel com sistema android</h3> 
+                <img src="./imagens/IMG-20210923-WA0007.jpg" alt="">
             </div>
-                         
         </article>
     </main>
     <footer>
         <p>&copy; Copyright 2021,Slover Finacial Multiservice,SA.Todos direitos reservados</p>
-        <p> <p>Desenvolvido por <abbr title="Eurico dos Santos 845999149 "><a href="mailto:dossantoscambula@gmail.com">Cambula</a></abbr> & <abbr title="Natalino Agostinho 878255655"><a href="mailto:natalinoqueba@gmail.com" >Queba </a></abbr></p></p>
+        <p>
+            <p>Desenvolvido por <abbr title="Eurico dos Santos 845999149 "><a
+                        href="mailto:dossantoscambula@gmail.com">Cambula</a></abbr> & <abbr
+                    title="Natalino Agostinho 878255655"><a href="mailto:natalinoqueba@gmail.com">Queba </a></abbr></p>
+        </p>
     </footer>
-    <script src="script/script.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
