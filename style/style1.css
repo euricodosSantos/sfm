@@ -638,27 +638,32 @@ abbr>a {
 #imagem0 {
     background: url(../imagens/photo4.jpeg) no-repeat;
     background-size: cover;
+    background-position: center center;
 
 }
 
 #imagem1 {
     background: url(../imagens/imagem4.jpg)no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 
 #imagem2 {
     background: url(../imagens/imagem8.jpg) no-repeat;
     background-size: cover;
+    background-position: center center;
 }
 
 #imagem3 {
     background: url(../imagens/i01.jpg) no-repeat;
+    background-position: center center;
     background-size: cover;
 }
 
 #imagem4 {
     background: url(../imagens/i06.jpg)no-repeat;
     background-size: cover;
+    background-position: center center;
 
 }
 
