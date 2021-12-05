@@ -21,6 +21,7 @@
 }
 
 @media screen and (min-width: 750px) {
+  
     body {
         font-size: larger;
     }
@@ -242,7 +243,10 @@
     .imagem {
         width: 40%;
         min-height: 50vh;
+   
     }
+  
+
 }
 #sucesso{
     padding-top: 200px;
@@ -265,5 +269,5 @@
 @media screen and (min-height: 800px) {
     .caixa {
         min-height: 50vh;
-    }
+    } 
 }

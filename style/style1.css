@@ -177,16 +177,19 @@ main {
 .slide1 {
     background-image: url("../imagens/imagem5.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 .slide2 {
     background-image: url("../imagens/imagem4.jpg");
     background-size: cover;
+
 }
 
 .slide3 {
     background-image: url("../imagens/imagem8.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 #btSlides {
@@ -639,33 +642,37 @@ abbr>a {
     background: url(../imagens/photo4.jpeg) no-repeat;
     background-size: cover;
     background-position: center center;
-
+    
 }
 
 #imagem1 {
     background: url(../imagens/imagem4.jpg)no-repeat;
     background-position: center center;
     background-size: cover;
+ 
 }
 
 #imagem2 {
     background: url(../imagens/imagem8.jpg) no-repeat;
     background-size: cover;
+  
     background-position: center center;
+  
 }
 
 #imagem3 {
     background: url(../imagens/i01.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
+
 }
 
 #imagem4 {
     background: url(../imagens/i06.jpg)no-repeat;
     background-size: cover;
-    background-position: center center;
+    }
 
-}
+
 
 #logofinal {
     display: flex;
