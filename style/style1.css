@@ -178,11 +178,13 @@ main {
     background-image: url("../imagens/imagem5.jpg");
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .slide2 {
     background-image: url("../imagens/imagem4.jpg");
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -190,6 +192,7 @@ main {
     background-image: url("../imagens/imagem8.jpg");
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 #btSlides {
@@ -699,4 +702,7 @@ abbr>a {
 
 .us{
     width: 100%;
+}
+a h4{
+    color: var(--cor1);
 }
