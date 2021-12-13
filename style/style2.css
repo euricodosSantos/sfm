@@ -19,6 +19,12 @@
         transform: translateX(0);
     }
 }
+.idv div > p{
+    font-size:25px;
+}
+.idv div > h3{
+    font-size: 30px;
+}
 
 @media screen and (min-width: 750px) {
   
@@ -46,7 +52,7 @@
         color: var(--cor1);
 
     }
-
+    
     #btMenu {
         display: none;
     }
@@ -150,6 +156,9 @@
     .caixa h3,
     .caixa p {
         padding: 15px;
+    }
+    .caixa h3{
+        text-transform: uppercase;
     }
 
     .conteiner {
