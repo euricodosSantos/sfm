@@ -82,6 +82,10 @@
         animation-delay: 1s;
         margin-left: 10px;
     }
+    .texto h1{
+        word-spacing: 2%;
+        font-size: 35px;
+    }
 
     nav ul li a {
         color: white;
