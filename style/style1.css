@@ -292,6 +292,7 @@ main {
 }
 
 #sobre_empresa div {
+    padding: 20px;
     display: flex;
     width: 90%;
     flex-direction: column;
@@ -373,6 +374,8 @@ h2 img {
     background-size: cover;
     text-align: center;
     min-height: 100vh;
+    background-attachment: fixed;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 #creditos ul {

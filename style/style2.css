@@ -258,7 +258,10 @@
         min-height: 50vh;
    
     }
-  
+  #sob{
+      transform: translate(35%,220%);
+
+  }
 
 }
 #sucesso{
