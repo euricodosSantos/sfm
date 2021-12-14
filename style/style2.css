@@ -25,6 +25,10 @@
 .idv div > h3{
     font-size: 30px;
 }
+h1{
+ font-weight: 900;
+}
+
 
 @media screen and (min-width: 750px) {
   
