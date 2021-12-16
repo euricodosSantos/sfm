@@ -168,14 +168,14 @@ main {
 
 .idv>div {
     margin: auto;
-    transform: translateY(100%);
+    transform: translateY(20vh);
     padding: 10px;
     width: 70%;
   
 }
 
 .slide1 {
-    background-image: url("../imagens/i06.jpg");
+    background-image: url("../imagens/fundo-moeda.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -370,7 +370,7 @@ h2 img {
 }
 
 #creditos {
-    background-image: url("../imagens/i06.jpg");
+    background-image: url("../imagens/fundo-moeda.jpg");
     background-size: cover;
     text-align: center;
     min-height: 100vh;
@@ -681,14 +681,14 @@ abbr>a {
 }
 
 #imagem3 {
-    background: url(../imagens/i01.jpg) no-repeat;
+    background: url(../imagens/fundo-moeda2.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
 
 }
 
 #imagem4 {
-    background: url(../imagens/i06.jpg)no-repeat;
+    background: url(../imagens/fundo-moeda.jpg)no-repeat;
     background-size: cover;
     }
 
@@ -725,4 +725,9 @@ a h4{
 }
 .caixa h3{
     text-transform: uppercase;
+}
+#sob0 {
+     width: fit-content;
+     display: flex;
+    transform: translateY(10vh);
 }
