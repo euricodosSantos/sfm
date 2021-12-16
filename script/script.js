@@ -107,19 +107,19 @@ function mudarProv(boatao, prov) {
     provDiv.innerHTML += `<p>\u{1F4DE}+258 86 391 3250</p>`;
   } else if (prov == "zb") {
     provDiv.innerHTML += "<h4>Zambezia</h4>";
-    provDiv.innerHTML += "<p>Av. 25 de Zambezia,1791 - Zambezia</p>";
+    provDiv.innerHTML += ''
     provDiv.innerHTML += "<p>\u{1F4DE}+258 86 319 0229</p>";
   } else if (prov == "np") {
     provDiv.innerHTML = "<h4>Nampula</h4>";
-    provDiv.innerHTML += "<p>Av. 25 de Nampula,1791 - Nampula</p>";
+    provDiv.innerHTML += "<p>Av. Francisco Manyanga, ref: Edificio da EMOSE.</p>";
     provDiv.innerHTML += "<p> \u{1F4DE}+258 86 231 6277</p>";
   } else if (prov == "in") {
     provDiv.innerHTML = "<h4>Inhambane</h4>";
-    provDiv.innerHTML += "<p>Av. 25 de Inhambane,1791 - Inhambane</p>";
+    provDiv.innerHTML += "";
     provDiv.innerHTML += "<p> \u{1F4DE}+258 86 813 0474</p>";
   } else if (prov == "mc") {
     provDiv.innerHTML = "<h4>Manica</h4>";
-    provDiv.innerHTML += "<p>Av. 25 de Manica,1791 - Manica</p>";
+    provDiv.innerHTML += " ";
     provDiv.innerHTML += "<p>\u{1F4DE}+258 86 813 0474</p>";
   }
 }
@@ -136,4 +136,7 @@ for (const dv of sconteudo) {
     dv.style.backgroundColor = "white";
     cor = 0;
   }
+}
+function submeter(){
+  window.location.href = './sobrenos.html'
 }

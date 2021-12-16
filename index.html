@@ -24,7 +24,7 @@
             <ul>
                 <li><a class="lm" href="#home">Home</a></li>
                 <li><a class="lm" href="sobrenos.html" target="_self" id="nos">Sobre Nós </a></li>
-                <li><a class="lm" href="#creditos">Creditos</a></li>
+                <li><a class="lm" href="#creditos">Créditos </a></li>
                 <li><a class="lm" href="#contacto">Contacto</a></li>
                 <li><a class="lm" href="./documentos/Anuncio-de-Vaga-para-Gestores Ibane.pdf">Recrutamento</a></li>
             </ul>
@@ -44,7 +44,7 @@
                         <div class="idv">
                             <div>
                                 <h1>Bem Vindo a SOLVER FINANCIAL MULTISERVICES</h1>
-                                <p>Encontre a melhor solução Financeira para os seus problemas Financeiros</p>
+                                <p>Encontre a melhor solução  para os seus problemas Financeiros</p>
                                 
                             </div>
                         </div>
@@ -53,8 +53,8 @@
                         <div class="idv">
                             <div>
                                 <h1>Transforme o seu Sonho em objetivos, através de finaciamento bancário </h1>
-                                <p> Funcionário publico</p>
-                                <p>Micro empreendedor</p>
+                                <p> Funcionário público </p>
+                                <p>Comerciante</p>
                             </div>
                         </div>
                     </div>
@@ -105,25 +105,25 @@
                 <h2>Créditos </h2>
                 <div id="dsp">
                     <div class="caixa">
-                        <h3>Créditos ao Funcionário Público</h3>
+                        <h3>Crédito ao Funcionário Público</h3>
                         <p>Desembolso em <strong class="maior">7</strong> dias </p>
                         <p>Taxa Mensal de <strong>2.1% a 2.9%</strong> </p>
-                        <p>Periodos <strong> 6</strong> á<strong>72</strong> Meses </p>
-                        <p>Montante de <strong>20.000,00 ate 2.000.000,00 Mts</strong></p>
+                        <p>Período de <strong> 6</strong> á <strong>72</strong> Meses </p>
+                        <p>Montante de <strong>20.000,00 até 2.000.000,00 Mts</strong></p>
                         
                         <a href="#contacto"><input type="button" value="Aderir" id="ad1" class="aderir"></a>
                     </div>
                     <div class="caixa">
-                        <h3>Créditos ao comerciante </h3>
+                        <h3>Crédito ao comerciante </h3>
                         <p>Desembolso em  <strong class="maior">3</strong> dias </p>
                         <p>Taxa Mensal de <strong> 25%</strong></p>
                         <p>Montante mínimo <strong>30.000.00 Mts</strong></p>
-                        <p>Periodo <strong> 1</strong> a <strong>6</strong> meses </p>
+                        <p>Período de <strong> 1</strong> á <strong>6</strong> meses </p>
                         
                         <a href="#contacto"><input type="button" value="Aderir" id="ad2" class="aderir"></a>
                     </div>
                     <div class="caixa">
-                        <h3>Créditos ao Consumo</h3>
+                        <h3>Crédito ao Consumo</h3>
                         <p><strong class="maior">24</strong> horas para o Desembolso </p>
                         <p>Taxa até  <strong>25%</strong> </p>
                        
@@ -141,6 +141,7 @@
                 <div class="conteiner">
                     <div id="formulario">
                         <form action="https://formsubmit.co/info@solverfinancial.com" method="POST">
+                            <input type="hidden" name="redirectTo" value="https://www.google.com">
                             <input type="hidden" name="Formulario" value="Formulario do Site">
                             <div class="inputBox">
                                 <input type="text" name="Nome" required minlength="3">
@@ -169,15 +170,15 @@
                                 </select>
                             </div>
                             <div class="inputBox">
-                                <select name="Provincia" id="" required >
+                                <select name="Crédito" id="" required >
                                     <option value="Crédito ao Funciona Público">Crédito ao  Funcionário  Público</option>
-                                    <option value="Crédito ao Funciona Público">Crédito ao micro empreendedor</option>
+                                    <option value="Crédito ao Funciona Público">Crédito ao comerciante</option>
                                     <option value="Crédito ao consumo">Crédito ao consumo</option>
                                    
                                 </select>
                             </div>
                             <div class="inputBox">
-                                <input type="submit" value="Submeter" id="sub">
+                                <input type="submit" value="Submeter" id="sub" onclick="submeter()">
                             </div>
                         </form>
                     </div>
