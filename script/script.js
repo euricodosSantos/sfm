@@ -138,5 +138,5 @@ for (const dv of sconteudo) {
   }
 }
 function submeter(){
-  window.location.href = './sobrenos.html'
+  window.location.href = './sucessos.html'
 }
