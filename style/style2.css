@@ -92,7 +92,7 @@ h1{
     }
 
     nav ul li a {
-        color: white;
+        color:var(--cor3);
         padding: 2px;
         border: none;
         transition-property: background-color, padding, border-radius;
@@ -104,7 +104,7 @@ h1{
     #menu a:hover {
         padding: 5px;
         border-radius: 2px;
-        color: var(--cor3);
+        color: var(--cor1);
     }
 
     #btMenu {
