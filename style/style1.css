@@ -74,7 +74,7 @@ header {
 nav {
     width: 100%;
     text-transform: uppercase;
-    background-color: var(--cor5);
+    background-color: var(--cor3);
     text-align: center;
     display: none;
 }
@@ -175,21 +175,21 @@ main {
 }
 
 .slide1 {
-    background-image: url("../imagens/fundo-moeda.jpg");
+    background-image: url("../imagens/IMG1.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 
 .slide2 {
-    background-image: url("../imagens/imagem4.jpg");
+    background-image: url("../imagens/IMG2.jpg");
     background-size: cover;
     background-attachment: fixed;
 
 }
 
 .slide3 {
-    background-image: url("../imagens/imagem8.jpg");
+    background-image: url("../imagens/IMG3.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
