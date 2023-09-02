@@ -731,3 +731,50 @@ a h4{
      display: flex;
     transform: translateY(10vh);
 }
+.whats{
+    animation-name:movimento;
+    animation-duration:2s ;
+    position: fixed;
+    bottom: 180px;
+    right: 20px;
+    z-index: 99;
+}
+
+.whats img:hover{
+background-color:green;
+transition: 1s;
+border-radius: 100%;
+}
+
+#parceiros h3{
+    color: var(--cor3);
+}
+#parceiros {
+  
+  margin:auto;
+  text-align:center;
+  padding:50px;
+
+  
+ 
+}
+/* Logo */
+.dsh-header.default .dsh-header-logo {
+  float: left;
+  margin-right: 37px;
+}
+.dsh-header-logo a {
+  display: block;
+}
+.dsh-header-logo img {
+  width: 20%;
+  max-width: none; /* Fix: Maintain aspect ratio (prevents fluid image-width) */
+  height: 10%;
+  vertical-align: middle;
+}
+
+/* Logo: Alternative logo */
+.dsh-alt-logo {
+  display: none;
+}
+
