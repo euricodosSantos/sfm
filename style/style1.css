@@ -731,9 +731,29 @@ a h4{
      display: flex;
     transform: translateY(10vh);
 }
+
+
+
+#textarea{
+    margin-right: 80px;
+    width: 80%;
+    height: 100px;
+    border: 1px solid white ;
+}
+@keyframes movimento {
+    from {
+        transform: translateX(200%);
+    }
+
+    to {
+        transform: translateX(0);
+    }}
+
 .whats{
     animation-name:movimento;
     animation-duration:2s ;
+    animation-timing-function: ease-out;
+    
     position: fixed;
     bottom: 180px;
     right: 20px;
@@ -741,8 +761,8 @@ a h4{
 }
 
 .whats img:hover{
-background-color:green;
-transition: 1s;
+background-color:rgb(2, 70, 2);
+transition: 2s ease;
 border-radius: 100%;
 }
 
