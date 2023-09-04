@@ -491,7 +491,15 @@ h2 img {
     background: #ff5064;
     color: #fff;
     border: none;
+    border-radius: 10px;
     text-transform: uppercase;
+}
+
+.conteiner #formulario form .inputBox input[type="submit"]:hover{
+    background-color: #981353;
+    color: #fff;
+    transition: 0.5s;
+    
 }
 
 .conteiner #formulario form .inputBox input[type="submit"]:focus {
@@ -751,9 +759,10 @@ a h4{
 
 .whats{
     animation-name:movimento;
-    animation-duration:2s ;
+    animation-duration:2s infinite ;
     animation-timing-function: ease-out;
-    
+    animation-delay: 0.5s;
+
     position: fixed;
     bottom: 180px;
     right: 20px;
