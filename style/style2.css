@@ -156,9 +156,22 @@ h1{
 
 
     .caixa {
+        background: url(../imagens/Funcionario.jpg) no-repeat;
+        background-size: cover;
         position: relative;
         min-width: 360px;
-        min-height: 75vh;
+        min-height: 80vh;
+        border: none;
+        border-radius: 5px;
+    }
+    .caixa:hover {
+        background: url(../imagens/Funcionario.jpg) no-repeat;
+        background-size: cover;
+        position: relative;
+        min-width: 400px;
+        min-height: 80vh;
+        transition: .5s;
+        transition-delay: .5s;
     }
 
     .caixa h3,
@@ -285,6 +298,20 @@ h1{
 
 @media screen and (min-height: 800px) {
     .caixa {
+        width: 100%;
         min-height: 50vh;
+        background: url(../imagens/site-solver.png) no-repeat ;
+        background-size: cover;
+        border: none;
+        
     } 
+    .caixa:hover {
+        min-height: 60vh;
+      
+        width: 100%;
+        transition: .1s;
+        transition-delay: .5s;
+        
+    } 
+   
 }

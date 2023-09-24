@@ -370,7 +370,7 @@ h2 img {
 }
 
 #creditos {
-    background-image: url("../imagens/fundo-moeda.jpg");
+    background-color: white;
     background-size: cover;
     text-align: center;
     min-height: 100vh;
@@ -419,7 +419,7 @@ h2 img {
 .caixa h3 {
     font-family: var(--fonte-titulo);
     border-bottom: 1px solid var(--cor1);
-    color: var(--cor1);
+    color: var(--cor3);
     padding: 10px;
     margin-bottom: 30px;
 }
@@ -540,13 +540,13 @@ h2 img {
 /*formulario*/
 
 .aderir {
-    width: 65%;
-    color: var(--cor1);
+    width: 50%;
+    color: var(--cor3);
     padding: 10px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0);
-    border: 2px solid var(--cor1);
-    margin-top: 10%;
+    border: 2px solid var(--cor3);
+    margin-top: 60%;
 }
 
 #contacto {
@@ -806,4 +806,19 @@ border-radius: 100%;
 .dsh-alt-logo {
   display: none;
 }
-
+#rodape{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 100px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+#rodape ul{
+    list-style: none;
+}
+.info{
+    text-justify: auto;
+    text-align: center;
+}

@@ -88,7 +88,7 @@ main {
 
 #home {
     height: 100vh;
-    color: white;
+    color:var(--cor3);
     padding: 10px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.548);
@@ -98,12 +98,14 @@ main {
 .texto {
     width: 500px;
     margin: 30px auto;
+ 
 }
 
 #texto h1,
 #texto p {
     padding: 5px;
     margin: 5px;
+  
 }
 
 #formulario {
@@ -151,6 +153,7 @@ hr{
     margin-bottom: 12px;
 }
 .caixa {
+ 
     border: 2px solid var(--cor1);
     margin: 10px auto;
     min-width: 200px;
@@ -173,7 +176,7 @@ hr{
 .aderir {
     width: 65%;
     position: relative;
-    bottom: 5px;
+    bottom: 15px;
     color: var(--cor1);
     padding: 10px;
     border-radius: 20px;
