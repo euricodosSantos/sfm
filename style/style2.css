@@ -165,7 +165,7 @@ h1{
         border-radius: 5px;
     }
     .caixa:hover {
-        background: url(../imagens/Funcionario.jpg) no-repeat;
+        background: url(../imagens/site-solver.png) no-repeat;
         background-size: cover;
         position: relative;
         min-width: 400px;
