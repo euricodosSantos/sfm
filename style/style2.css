@@ -303,6 +303,7 @@ h1{
         background: url(../imagens/site-solver.png) no-repeat ;
         background-size: cover;
         border: none;
+        border-radius: 5px;
         
     } 
     .caixa:hover {
