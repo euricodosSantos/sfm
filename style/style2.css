@@ -156,7 +156,7 @@ h1{
 
 
     .caixa {
-        background: url(../imagens/Funcionario.jpg) no-repeat;
+        background: url(../imagens/site-solver.png) no-repeat;
         background-size: cover;
         position: relative;
         min-width: 360px;
@@ -303,7 +303,7 @@ h1{
         background: url(../imagens/site-solver.png) no-repeat ;
         background-size: cover;
         border: none;
-        border-radius: 5px;
+        border-radius: 10px;
         
     } 
     .caixa:hover {
