@@ -174,13 +174,7 @@ h1{
         transition-delay: .5s;
     }
 
-    .caixa h3,
-    .caixa p {
-        padding: 15px;
-    }
-    .caixa h3{
-        text-transform: uppercase;
-    }
+    
 
     .conteiner {
         flex-direction: row;

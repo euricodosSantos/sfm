@@ -416,17 +416,6 @@ h2 img {
 }
 
 
-.caixa h3 {
-    font-family: var(--fonte-titulo);
-    border-bottom: 1px solid var(--cor1);
-    color: var(--cor3);
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-.caixa p {
-    margin: auto;
-}
 
 /*formulario*/
 .conteiner {
@@ -547,6 +536,7 @@ h2 img {
     background-color: rgba(255, 255, 255, 0);
     border: 2px solid var(--cor3);
     margin-top: 60%;
+    
 }
 
 #contacto {
