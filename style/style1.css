@@ -411,13 +411,47 @@ h2 img {
 .caixa {
     border: 2px solid var(--cor1);
     margin: 60px auto;
-    width: 300px;
     max-width: 350px;
     min-height: 66vh;
     max-height: 70vh;
     background-color: rgba(255, 255, 255, 0.889);
+    width: 350px;
+    min-height: 394px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 35px;
 }
 
+.caixa h3{
+    
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 36px;
+    color: #2E3641;
+    border-bottom: 1px solid rgba(46,54,65,0.2);
+    margin-left: -20px;
+    padding-left: 20px;
+    margin-right: -20px;
+    position: relative;
+    
+}
+.title{
+    padding-top: 50px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.description{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 60px;
+}
 
 
 /*formulario*/
