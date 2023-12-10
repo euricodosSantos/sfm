@@ -92,6 +92,7 @@ h1{
     }
 
     nav ul li a {
+        font-family:'Montserrat'sans-serif;
         color:var(--cor3);
         padding: 2px;
         border: none;
@@ -156,7 +157,6 @@ h1{
 
 
     .caixa {
-        background: url(../imagens/site-solver.png) no-repeat;
         background-size: cover;
         position: relative;
         min-width: 360px;
@@ -165,7 +165,7 @@ h1{
         border-radius: 5px;
     }
     .caixa:hover {
-        background: url(../imagens/site-solver.png) no-repeat;
+     
         background-size: cover;
         position: relative;
         min-width: 400px;

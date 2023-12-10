@@ -26,6 +26,9 @@ body {
     line-height: 1.7em;
     font-family: var(--fonte-padrao);
     font-size: small;
+    background-image:url(../imagens/homepage-invest.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -370,7 +373,7 @@ h2 img {
 }
 
 #creditos {
-    background-color: white;
+
     background-size: cover;
     text-align: center;
     min-height: 100vh;
@@ -402,7 +405,7 @@ h2 img {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px;
-    background-color: rgba(0, 0, 0, 0.384);
+    
 }
 
 .caixa {
@@ -766,7 +769,7 @@ border-radius: 100%;
 }
 
 #parceiros h3{
-    color: var(--cor3);
+    color: whitesmoke;
 }
 #parceiros {
   
