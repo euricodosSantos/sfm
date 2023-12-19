@@ -246,6 +246,7 @@ main {
 
 .texto h1,
 .texto p {
+    
     padding: 10px;
     font-family: var(--fonte-titulo);
 }
