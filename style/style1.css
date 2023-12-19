@@ -308,15 +308,17 @@ main {
     max-width: 200px;
 }
 #empresa_texto h3{
+    font-weight: 200;
     font-size: 1.5em;
     color: var(--cor1);
     padding-bottom: 20px;
+    
 }
 
 #empresa_texto p {
     text-align: justify;
     color: var(--cor1);
-    font-weight: 600;
+    font-weight: 300;
    font-family:var(--fonte-padrao);
    padding-bottom: 40px;
 }
