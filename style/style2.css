@@ -38,6 +38,11 @@ h1{
   
     body {
         font-size: larger;
+        font-family: var(--fonte-padrao);
+        font-size: small;
+        background:url(../imagens/homepage-invest.jpg) ;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
     }
 
     header {
@@ -306,11 +311,12 @@ h1{
         font-size: small;
         width: 100%;
         min-height: 50vh;
-        background: url(../imagens/site-solver.png) no-repeat ;
-        background-size: cover;
+      
+    background-size: cover;
         border: none;
         border-radius: 10px;
         position: relative;
+        
         
     } 
     .caixa:hover {
@@ -321,5 +327,6 @@ h1{
         transition-delay: .5s;
         
     } 
+   
    
 }

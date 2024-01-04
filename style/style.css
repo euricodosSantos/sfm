@@ -18,8 +18,8 @@
 
 body {
     font-family:'Montserrat', Arial, Helvetica, sans-serif;
-   /* background: url("../imagens/imagem5.jpg") no-repeat;
-    background-size: cover; */
+   /* background: url("../imagens/imagem5.jpg") no-repeat;*/
+    background-size: cover; 
 }
 
 header {
