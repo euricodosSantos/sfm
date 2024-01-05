@@ -818,6 +818,16 @@ background-color:rgb(2, 70, 2);
 transition: 2s ease;
 border-radius: 100%;
 }
+.logoparceiros{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+   
+  }
 
 .tituloparceiro {
     margin-top: 60px;
@@ -826,8 +836,8 @@ border-radius: 100%;
 
 }
 #parceiros {
-  width: 50%;
-  margin:-10px;
+  
+
   text-align:center;
   padding:50px;
 
