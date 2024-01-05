@@ -823,8 +823,7 @@ border-radius: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-content: center;
     
    
   }
@@ -835,15 +834,7 @@ border-radius: 100%;
     font-size: x-large;
 
 }
-#parceiros {
-  
 
-  text-align:center;
-  padding:50px;
-
-  
- 
-}
 /* Logo */
 .dsh-header.default .dsh-header-logo {
   float: left;
