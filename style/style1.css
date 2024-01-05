@@ -404,24 +404,23 @@ h2 img {
 }
 
 #dsp {
-    min-height: 100vh;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 30px;
-  
-    background-size: cover;
+    padding: 10px;
+     background-size: cover;
   
     
 }
 
 .caixa {
     border: 2px solid var(--cor1);
-    margin: 60px auto;
+    margin: 60px ;
     max-width: 350px;
     min-height: 66vh;
-    max-height: 70vh;
+    max-height: 40vh;
     background-color: rgba(255, 255, 255, 0.889);
     width: 350px;
     min-height: 394px;
@@ -820,12 +819,15 @@ transition: 2s ease;
 border-radius: 100%;
 }
 
-#parceiros h3{
+.tituloparceiro {
+    margin-top: 60px;
     color: whitesmoke;
+    font-size: x-large;
+
 }
 #parceiros {
-  
-  margin:auto;
+  width: 50%;
+  margin:-10px;
   text-align:center;
   padding:50px;
 
@@ -871,4 +873,18 @@ border-radius: 100%;
     padding-top: 50px;
     color: whitesmoke;
     display: block;
+}
+.logoparceiros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.absa-log{
+  display: block;
+  margin: auto
 }
