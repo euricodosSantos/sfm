@@ -169,7 +169,7 @@ h1{
 
 
     #creditos {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 
 
@@ -177,16 +177,21 @@ h1{
         background-size: cover;
         position: relative;
         min-width: 360px;
-        min-height: 80vh;
+        /* min-height: 80vh; */
         border: none;
         border-radius: 5px;
+    }
+
+    .caixa p {
+        margin-bottom: 10px;
+        padding: 3px;
     }
     .caixa:hover {
      
         background-size: cover;
         position: relative;
         min-width: 400px;
-        min-height: 80vh;
+        /* min-height: 80vh; */
         transition: .5s;
         transition-delay: .5s;
     }
